@@ -1,0 +1,12 @@
+  
+#Keep this file in /etc/ansible directory for transferring to data to windows via NTLM
+
+[winhost]
+# specify ip address of the machines per line
+
+[winhost:vars]
+ansible_user='<userid>@<complete LDAP domain eg. xyz.com>'
+#ansible_password=''. Either pass pasword here or use -k option through cli
+ansible_connection=winrm
+ansible_port=5985
+ansible_winrm_transport=ntlm # We can use kerberos also
