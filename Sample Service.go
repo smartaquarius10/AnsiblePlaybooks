@@ -1,6 +1,6 @@
 package main
 
-//https://events.goldcast.io/auth/link/smartaquarius10@gmail.com/1dea055c-5009-4181-a183-9e71085cf3c4?eventID=92aef212-e8bd-4c9a-8189-21f9666d98fe
+
 
 import (
 	"fmt"
