@@ -1,0 +1,554 @@
+[Info  - 1:24:19 AM] 2021/03/05 01:24:19 go env for C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+(root C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject)
+(go version go version go1.14.2 windows/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOMOD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\go.mod
+GOCACHE=C:\Users\myname\AppData\Local\go-build
+GOMODCACHE=
+GONOSUMDB=
+GOPROXY=https://proxy.golang.org,direct
+GOSUMDB=sum.golang.org
+GO111MODULE=
+GOINSECURE=
+GOPATH=C:\Users\myname\go
+GOFLAGS=
+GONOPROXY=
+GOPRIVATE=
+GOROOT=C:\Go
+
+
+[Info  - 1:25:12 AM] 2021/03/05 01:25:12 go/packages.Load
+	snapshot=0
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[myproject/... builtin]
+	packages=9
+
+[Info  - 1:25:32 AM] 2021/03/05 01:25:32 go env for C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+(root C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject)
+(go version go version go1.14.2 windows/amd64)
+(valid build configuration = true)
+(build flags: [])
+GONOSUMDB=
+GOPATH=C:\Users\myname\go
+GOPROXY=https://proxy.golang.org,direct
+GOROOT=C:\Go
+GOFLAGS=
+GONOPROXY=
+GOINSECURE=
+GOSUMDB=sum.golang.org
+GO111MODULE=
+GOPRIVATE=
+GOCACHE=C:\Users\myname\AppData\Local\go-build
+GOMOD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\go.mod
+GOMODCACHE=
+
+
+[Info  - 1:25:52 AM] 2021/03/05 01:25:52 go/packages.Load
+	snapshot=0
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[myproject/... builtin]
+	packages=9
+
+[Info  - 1:26:26 AM] 2021/03/05 01:26:26 background imports cache refresh starting
+
+[Info  - 1:27:06 AM] 2021/03/05 01:27:06 background refresh finished after 41.3932343s
+
+[Error - 1:27:15 AM] 2021/03/05 01:27:15 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:14: expected type, found ')'
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:27:15 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:27:18 AM] 2021/03/05 01:27:18 no signature help: cannot find signature for Fun *ast.ArrayType (&{7314957 <nil> byte})
+	position={12 18}
+
+[Error - 1:28:12 AM] 2021/03/05 01:28:12 no signature help: cannot find signature for Fun *ast.ArrayType (&{7358552 <nil> byte})
+	position={12 67}
+
+[Error - 1:28:20 AM] 2021/03/05 01:28:20 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:65: expected operand, found ')' (and 11 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:21 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:28:21 AM] 2021/03/05 01:28:21 DocumentSymbols failed: invalid pos
+	URI=file:///C:/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/myproject/utils/panic.go
+
+[Error - 1:28:22 AM] 2021/03/05 01:28:22 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:65: expected operand, found ')' (and 11 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:22 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:28:22 AM] 2021/03/05 01:28:22 DocumentSymbols failed: invalid pos
+	URI=file:///C:/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/myproject/utils/panic.go
+
+[Error - 1:28:28 AM] 2021/03/05 01:28:28 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:21: missing ',' in argument list
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:28 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:28:29 AM] 2021/03/05 01:28:29 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:24: missing ',' in argument list
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:29 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:28:30 AM] 2021/03/05 01:28:30 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:25: missing ',' in argument list
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:34 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:28:34 AM] 2021/03/05 01:28:34 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:30: missing ',' in argument list
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:37 AM] 2021/03/05 01:28:37 DocumentSymbols failed: invalid pos
+	URI=file:///C:/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/myproject/utils/panic.go
+
+[Error - 1:28:37 AM] 2021/03/05 01:28:37 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:80: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:37 AM] 2021/03/05 01:28:37 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:80: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:38 AM] 2021/03/05 01:28:38 no signature help: cannot find signature for Fun *ast.ArrayType (&{7367516 <nil> byte})
+	position={12 77}
+
+[Error - 1:28:38 AM] 2021/03/05 01:28:38 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:80: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:40 AM] 2021/03/05 01:28:40 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:80: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:42 AM] 2021/03/05 01:28:42 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:81: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:42 AM] 2021/03/05 01:28:42 DocumentSymbols failed: invalid pos
+	URI=file:///C:/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/myproject/utils/panic.go
+
+[Error - 1:28:44 AM] 2021/03/05 01:28:44 DocumentSymbols failed: invalid pos
+	URI=file:///C:/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/myproject/utils/panic.go
+
+[Error - 1:28:44 AM] 2021/03/05 01:28:44 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:82: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:44 AM] 2021/03/05 01:28:44 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:82: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:44 AM] Request textDocument/formatting failed.
+  Message: 13:82: missing ',' before newline in argument list (and 2 more errors)
+  Code: 0 
+[Error - 1:28:46 AM] 2021/03/05 01:28:46 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:82: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:49 AM] 2021/03/05 01:28:49 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:82: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:28:50 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:28:55 AM] 2021/03/05 01:28:55 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:82: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:29:13 AM] 2021/03/05 01:29:13 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:82: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Error - 1:29:16 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:29:20 AM] 2021/03/05 01:29:20 imports fixes: AllImportsFixes: C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go:13:82: missing ',' before newline in argument list (and 10 more errors)
+	file="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\myproject\\utils\\panic.go"
+
+[Info  - 1:38:43 AM] 2021/03/05 01:38:43 go/packages.Load
+	snapshot=136
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go]
+	packages=1
+
+[Info  - 1:38:43 AM] 2021/03/05 01:38:43 go/packages.Load
+	snapshot=136
+	package="myproject/utils"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\ParseJson.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+
+[Info  - 1:38:45 AM] 2021/03/05 01:38:45 go/packages.Load
+	snapshot=136
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go]
+	packages=1
+
+[Info  - 1:38:45 AM] 2021/03/05 01:38:45 go/packages.Load
+	snapshot=136
+	package="myproject/utils"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\ParseJson.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+
+[Info  - 1:39:16 AM] 2021/03/05 01:39:16 go/packages.Load
+	snapshot=138
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go]
+	packages=1
+
+[Info  - 1:39:16 AM] 2021/03/05 01:39:16 go/packages.Load
+	snapshot=138
+	package="myproject/utils"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\ParseJson.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+
+[Info  - 1:39:17 AM] 2021/03/05 01:39:17 go/packages.Load
+	snapshot=138
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go]
+	packages=1
+
+[Info  - 1:39:17 AM] 2021/03/05 01:39:17 go/packages.Load
+	snapshot=138
+	package="myproject/utils"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\ParseJson.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+
+[Error - 1:39:26 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 1:39:59 AM] 2021/03/05 01:39:59 go/packages.Load
+	snapshot=185
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go]
+	packages=1
+
+[Info  - 1:39:59 AM] 2021/03/05 01:39:59 go/packages.Load
+	snapshot=185
+	package="myproject/utils"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\ParseJson.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+
+[Info  - 1:40:00 AM] 2021/03/05 01:40:00 go/packages.Load
+	snapshot=185
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go]
+	packages=1
+
+[Info  - 1:40:00 AM] 2021/03/05 01:40:00 go/packages.Load
+	snapshot=185
+	package="myproject/utils"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\ParseJson.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+
+[Error - 1:40:13 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:40:21 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:40:21 AM] 2021/03/05 01:40:21 warning: diagnose package: analysis fillreturns for package myproject/utils panicked: unknown basic type
+	snapshot=202
+	package="myproject/utils"
+
+[Info  - 1:40:21 AM] 2021/03/05 01:40:21 analysis panicked: unknown basic type
+	package="myproject/utils"
+
+[Info  - 1:40:22 AM] 2021/03/05 01:40:22 analysis panicked: unknown basic type
+	package="myproject/utils"
+
+[Error - 1:40:22 AM] 2021/03/05 01:40:22 warning: diagnose package: analysis fillreturns for package myproject/utils panicked: unknown basic type
+	snapshot=203
+	package="myproject/utils"
+
+[Error - 1:40:30 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:40:30 AM] 2021/03/05 01:40:30 warning: diagnose package: analysis fillreturns for package myproject/utils panicked: unknown basic type
+	snapshot=204
+	package="myproject/utils"
+
+[Error - 1:40:42 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 1:41:08 AM] 2021/03/05 01:41:08 go/packages.Load
+	snapshot=208
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go]
+	packages=1
+
+[Info  - 1:41:08 AM] 2021/03/05 01:41:08 go/packages.Load
+	snapshot=208
+	package="myproject/utils"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\ParseJson.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+
+[Info  - 1:41:09 AM] 2021/03/05 01:41:09 go/packages.Load
+	snapshot=208
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go]
+	packages=1
+
+[Info  - 1:41:09 AM] 2021/03/05 01:41:09 go/packages.Load
+	snapshot=208
+	package="myproject/utils"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\ParseJson.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+
+[Info  - 1:41:34 AM] 2021/03/05 01:41:34 go/packages.Load
+	snapshot=208
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\handlers\monitoring.go]
+	packages=1
+
+[Info  - 1:41:34 AM] 2021/03/05 01:41:34 go/packages.Load
+	snapshot=208
+	package="myproject/handlers"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\handlers\login.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\handlers\monitoring.go]
+
+[Info  - 1:42:08 AM] 2021/03/05 01:42:08 go/packages.Load
+	snapshot=216
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+	packages=1
+
+[Info  - 1:42:08 AM] 2021/03/05 01:42:08 go/packages.Load
+	snapshot=216
+	package="myproject/utils"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\ParseJson.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+
+[Error - 1:42:08 AM] 2021/03/05 01:42:08 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=216
+
+[Info  - 1:42:09 AM] 2021/03/05 01:42:09 go/packages.Load
+	snapshot=216
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+	packages=1
+
+[Info  - 1:42:09 AM] 2021/03/05 01:42:09 go/packages.Load
+	snapshot=216
+	package="myproject/utils"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\ParseJson.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\others.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\utils\panic.go]
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=217
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=218
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=219
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=220
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=221
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=222
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=222
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=223
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=224
+
+[Error - 1:42:09 AM] Request textDocument/definition failed.
+  Message: no imported package for utils
+  Code: 0 
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=225
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=226
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=227
+
+[Error - 1:42:09 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=228
+
+[Error - 1:42:09 AM] Request textDocument/formatting failed.
+  Message: 14:82: expected selector or type assertion, found ')' (and 2 more errors)
+  Code: 0 
+[Error - 1:42:10 AM] 2021/03/05 01:42:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=229
+
+[Error - 1:42:10 AM] 2021/03/05 01:42:10 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=230
+
+[Error - 1:42:10 AM] 2021/03/05 01:42:10 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=231
+
+[Info  - 1:42:29 AM] 2021/03/05 01:42:29 go/packages.Load
+	snapshot=231
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject
+	query=[myproject/handlers]
+	packages=1
+
+[Info  - 1:42:29 AM] 2021/03/05 01:42:29 go/packages.Load
+	snapshot=231
+	package="myproject/handlers"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\handlers\login.go C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\myproject\handlers\monitoring.go]
+
+[Error - 1:42:32 AM] 2021/03/05 01:42:32 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:03 AM] 2021/03/05 01:44:03 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:04 AM] 2021/03/05 01:44:04 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=232
+
+[Error - 1:44:04 AM] 2021/03/05 01:44:04 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:04 AM] 2021/03/05 01:44:04 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:07 AM] 2021/03/05 01:44:07 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=233
+
+[Error - 1:44:07 AM] 2021/03/05 01:44:07 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:08 AM] 2021/03/05 01:44:08 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=234
+
+[Error - 1:44:09 AM] 2021/03/05 01:44:09 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=235
+
+[Error - 1:44:12 AM] 2021/03/05 01:44:12 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:12 AM] 2021/03/05 01:44:12 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:16 AM] 2021/03/05 01:44:16 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=236
+
+[Error - 1:44:16 AM] 2021/03/05 01:44:16 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=236
+
+[Error - 1:44:16 AM] 2021/03/05 01:44:16 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=237
+
+[Error - 1:44:16 AM] 2021/03/05 01:44:16 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:17 AM] 2021/03/05 01:44:17 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=238
+
+[Error - 1:44:17 AM] 2021/03/05 01:44:17 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=238
+
+[Error - 1:44:17 AM] 2021/03/05 01:44:17 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:17 AM] 2021/03/05 01:44:17 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:18 AM] 2021/03/05 01:44:18 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=239
+
+[Error - 1:44:18 AM] 2021/03/05 01:44:18 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=239
+
+[Error - 1:44:21 AM] 2021/03/05 01:44:21 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:21 AM] 2021/03/05 01:44:21 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:31 AM] 2021/03/05 01:44:31 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=240
+
+[Error - 1:44:31 AM] 2021/03/05 01:44:31 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:32 AM] 2021/03/05 01:44:32 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=241
+
+[Error - 1:44:32 AM] 2021/03/05 01:44:32 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:38 AM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 1:44:42 AM] 2021/03/05 01:44:42 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:42 AM] Request textDocument/definition failed.
+  Message: no object found for ident u: no object found
+  Code: 0 
+[Error - 1:44:43 AM] 2021/03/05 01:44:43 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=242
+
+[Error - 1:44:43 AM] 2021/03/05 01:44:43 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:44 AM] 2021/03/05 01:44:44 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=243
+
+[Error - 1:44:44 AM] 2021/03/05 01:44:44 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=244
+
+[Error - 1:44:44 AM] 2021/03/05 01:44:44 diagnosing go.mod: err: exit status 1: stderr: myproject/utils imports
+	utils: package utils is not in GOROOT (C:\Go\src\utils)
+
+
+[Error - 1:44:44 AM] 2021/03/05 01:44:44 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=245
+
+[Error - 1:44:45 AM] 2021/03/05 01:44:45 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=246
+
+[Error - 1:44:54 AM] 2021/03/05 01:44:54 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=247
+
+[Error - 1:44:54 AM] 2021/03/05 01:44:54 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=248
+
+[Error - 1:44:54 AM] 2021/03/05 01:44:54 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=249
+
+[Error - 1:44:54 AM] 2021/03/05 01:44:54 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=250
+
+[Error - 1:44:55 AM] 2021/03/05 01:44:55 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=251
+
+[Error - 1:44:58 AM] 2021/03/05 01:44:58 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=252
+
+[Error - 1:44:59 AM] 2021/03/05 01:44:59 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=253
+
+[Error - 1:45:17 AM] 2021/03/05 01:45:17 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=254
+
+[Error - 1:52:56 AM] 2021/03/05 01:52:56 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=255
+
+[Error - 1:52:58 AM] 2021/03/05 01:52:58 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=256
+
+[Error - 1:52:58 AM] 2021/03/05 01:52:58 myproject/utils: no dep handle for utils: no metadata for utils
+	snapshot=257
+
+[Error - 1:53:00 AM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 2:01:36 AM] 2021/03/05 02:01:36 background imports cache refresh starting
+
+[Info  - 2:01:39 AM] 2021/03/05 02:01:39 background refresh finished after 3.4908712s
+
