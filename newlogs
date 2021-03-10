@@ -1,0 +1,689 @@
+[Info  - 9:48:31 PM] 2021/03/10 21:48:31 go env for C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank
+(root C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank)
+(go version go version go1.14.2 windows/amd64)
+(valid build configuration = false)
+(build flags: [])
+GOMOD=
+GONOSUMDB=
+GOMODCACHE=
+GONOPROXY=
+GOPATH=C:\Users\myname\go
+GOSUMDB=sum.golang.org
+GOCACHE=C:\Users\myname\AppData\Local\go-build
+GOINSECURE=
+GOPRIVATE=
+GOROOT=C:\Go
+GOFLAGS=
+GOPROXY=https://proxy.golang.org,direct
+GO111MODULE=
+
+
+[Info  - 9:49:03 PM] 2021/03/10 21:49:03 go/packages.Load
+	snapshot=0
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank
+	query=[./ builtin]
+	packages=2
+
+[Error - 9:49:11 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 9:49:40 PM] 2021/03/10 21:49:40 background imports cache refresh starting
+
+[Info  - 9:50:08 PM] 2021/03/10 21:50:08 go/packages.Load
+	snapshot=3
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank\main.go]
+	packages=1
+
+[Info  - 9:50:08 PM] 2021/03/10 21:50:08 go/packages.Load
+	snapshot=3
+	package="command-line-arguments"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank\main.go]
+
+[Error - 9:50:42 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Trace - 21:50:47.225 PM] Sending request 'initialize - (0)'.
+Params: {"processId":21288,"clientInfo":{"name":"vscode","version":"1.54.1"},"rootPath":"c:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank","rootUri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional"},"didChangeConfiguration":{"dynamicRegistration":true},"didChangeWatchedFiles":{"dynamicRegistration":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]}},"executeCommand":{"dynamicRegistration":true},"configuration":true,"workspaceFolders":true,"semanticTokens":{"refreshSupport":true}},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]},"codeDescriptionSupport":true,"dataSupport":true},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]},"insertReplaceSupport":true,"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]}},"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true},"activeParameterSupport":true},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true,"tagSupport":{"valueSet":[1]},"labelSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"disabledSupport":true,"dataSupport":true,"resolveSupport":{"properties":["edit"]},"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}}},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true,"prepareSupportDefaultBehavior":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true},"callHierarchy":{"dynamicRegistration":true},"semanticTokens":{"dynamicRegistration":true,"tokenTypes":["namespace","type","class","enum","interface","struct","typeParameter","parameter","variable","property","enumMember","event","function","member","macro","keyword","modifier","comment","string","number","regexp","operator"],"tokenModifiers":["declaration","definition","readonly","static","deprecated","abstract","async","modification","documentation","defaultLibrary"],"formats":["relative"],"requests":{"range":true,"full":{"delta":true}}}},"window":{"workDoneProgress":true}},"initializationOptions":{"verboseOutput":true},"trace":"off","workspaceFolders":[{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank","name":"hackerrank"}]}
+
+
+[Trace - 21:50:47.239 PM] Received response 'initialize - (0)' in 14ms.
+Result: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":["."]},"hoverProvider":true,"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":true,"typeDefinitionProvider":true,"implementationProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"codeActionProvider":{"codeActionKinds":["quickfix","refactor.extract","refactor.rewrite","source.fixAll","source.organizeImports"]},"codeLensProvider":{},"documentLinkProvider":{},"workspaceSymbolProvider":true,"documentFormattingProvider":true,"documentOnTypeFormattingProvider":{"firstTriggerCharacter":""},"renameProvider":{"prepareProvider":true},"foldingRangeProvider":true,"executeCommandProvider":{"commands":["gopls.add_dependency","gopls.add_import","gopls.apply_fix","gopls.check_upgrades","gopls.gc_details","gopls.generate","gopls.generate_gopls_mod","gopls.go_get_package","gopls.list_known_packages","gopls.regenerate_cgo","gopls.remove_dependency","gopls.run_tests","gopls.test","gopls.tidy","gopls.toggle_gc_details","gopls.update_go_sum","gopls.upgrade_dependency","gopls.vendor"]},"callHierarchyProvider":true},"serverInfo":{"name":"gopls","version":"{\"path\":\"golang.org/x/tools/gopls\",\"version\":\"v0.6.6\",\"sum\":\"h1:GmCsAKZMEb1BD1BTWnQrMyx4FmNThlEsmuFiJbLBXio=\",\"deps\":[{\"path\":\"github.com/google/go-cmp\",\"version\":\"v0.5.4\",\"sum\":\"h1:L8R9j+yAqZuZjsqh/z+F1NCffTKKLShY6zXTItVIZ8M=\"},{\"path\":\"github.com/sergi/go-diff\",\"version\":\"v1.1.0\",\"sum\":\"h1:we8PVUC3FE2uYfodKH/nBHMSetSfHDR6scGdBi+erh0=\"},{\"path\":\"golang.org/x/mod\",\"version\":\"v0.4.1\",\"sum\":\"h1:Kvvh58BN8Y9/lBi7hTekvtMpm07eUZ0ck5pRHpsMWrY=\"},{\"path\":\"golang.org/x/sync\",\"version\":\"v0.0.0-20201020160332-67f06af15bc9\",\"sum\":\"h1:SQFwaSi55rU7vdNs9Yr0Z324VNlrF+0wMqRXT4St8ck=\"},{\"path\":\"golang.org/x/sys\",\"version\":\"v0.0.0-20210124154548-22da62e12c0c\",\"sum\":\"h1:VwygUrnw9jn88c4u8GD3rZQbqrP/tgas88tPUbBxQrk=\"},{\"path\":\"golang.org/x/tools\",\"version\":\"v0.1.1-0.20210222172741-77e031214674\",\"sum\":\"h1:XzEjy9Ks1MwmcJOarbxTnL/AqHtzsRfRzAwfDhII2lE=\"},{\"path\":\"golang.org/x/xerrors\",\"version\":\"v0.0.0-20200804184101-5ec99f83aff1\",\"sum\":\"h1:go1bK/D/BFZV2I8cIQd1NKEZ+0owSTG1fDTci4IqFcE=\"},{\"path\":\"mvdan.cc/gofumpt\",\"version\":\"v0.1.0\",\"sum\":\"h1:hsVv+Y9UsZ/mFZTxJZuHVI6shSQCtzZ11h1JEFPAZLw=\"},{\"path\":\"mvdan.cc/xurls/v2\",\"version\":\"v2.2.0\",\"sum\":\"h1:NSZPykBXJFCetGZykLAxaL6SIpvbVy/UFEniIfHAa8A=\"}]}"}}
+
+
+[Trace - 21:50:47.258 PM] Sending notification 'initialized'.
+Params: {}
+
+
+[Trace - 21:50:47.259 PM] Sending notification 'textDocument/didOpen'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go","languageId":"go","version":4,"text":"package main\r\nimport (\r\n     \"fmt\"\r\n     \"bufio\"\r\n    \"strconv\"\r\n    \"strings\"\r\n    \"os\"\r\n)\r\n\r\nfunc main() {\r\n    scanner := bufio.NewScanner(os.Stdin)\r\n    var x int\r\n    for scanner.Scan() {\r\n        if x==0{\r\n            x,_= strconv.Atoi(scanner.Text())  \r\n            if x<1 || x>100{\r\n                return\r\n            }   \r\n            continue\r\n        }\r\n        for x>0{\r\n            var i int\r\n            var v int16\r\n            var c int16\r\n            text:=strings.Split(scanner.Text(),\" \") // split string and window size\r\n            y,_ := strconv.Atoi(text[1]) //read window size\r\n           // for i := 0; i < len(text[0]); i++ {\r\n           //     fmt.Printf(string(text[0][i]))\r\n           // }\r\n            if len(text[0])<1 || len(text[0])>10000{\r\n                return\r\n            }\r\n            condition:=len(text[0])-y+1\r\n            for t:=0; t<condition;t++{\r\n                for i < y {\r\n                   // fmt.Printf(\"%v\",string(text[0][i])) \r\n                    switch string(text[0][i]) {\r\n                        case \"a\", \"e\", \"i\", \"o\", \"u\", \"A\", \"E\", \"I\", \"O\", \"U\":\r\n                           fmt.Printf(\"array value %v\\n\",string(text[0][i])) \r\n                           v++     \r\n                        default:\r\n                            c++\r\n                    }                    \r\n                    i++                \r\n                }\r\n                fmt.Printf(\"value of v %d\\n\",v) \r\n                //fmt.Printf(\"value of c %d\\n\",c) \r\n                //fmt.Printf(\"%d\",v*c) \r\n                v=0\r\n                c=0\r\n                i--   \r\n                y=y+i\r\n                fmt.Printf(\"value of i %d\\n\",i) \r\n                //fmt.Printf(\"%d\",y)\r\n            }\r\n            fmt.Println(\"\")\r\n            x--\r\n            \r\n        }\r\n    }    \r\n}"}}
+
+
+[Trace - 21:50:47.261 PM] Received request 'window/workDoneProgress/create - (1)'.
+Params: {"token":"5577006791947779410"}
+
+
+[Trace - 21:50:47.268 PM] Sending response 'window/workDoneProgress/create - (1)' in 6ms.
+Result: 
+
+
+[Trace - 21:50:47.270 PM] Received notification '$/progress'.
+Params: {"token":"5577006791947779410","value":{"kind":"begin","title":"Setting up workspace","message":"Loading packages..."}}
+
+
+[Trace - 21:50:47.271 PM] Received request 'workspace/configuration - (2)'.
+Params: {"items":[{"scopeUri":"file:///C:/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank","section":"gopls"}]}
+
+
+[Trace - 21:50:47.279 PM] Sending response 'workspace/configuration - (2)' in 8ms.
+Result: [{"verboseOutput":true}]
+
+
+[Trace - 21:50:56.314 PM] Sending request 'textDocument/documentLink - (1)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:50:56.314 PM] Sending request 'textDocument/codeAction - (2)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"context":{"diagnostics":[]}}
+
+
+[Trace - 21:50:56.314 PM] Sending request 'textDocument/documentSymbol - (3)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:50:56.315 PM] Sending request 'textDocument/foldingRange - (4)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:50:56.315 PM] Sending request 'textDocument/codeAction - (5)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"range":{"start":{"line":5,"character":13},"end":{"line":5,"character":13}},"context":{"diagnostics":[]}}
+
+
+[Trace - 21:50:56.315 PM] Sending notification '$/cancelRequest'.
+Params: {"id":2}
+
+
+[Trace - 21:50:56.316 PM] Sending request 'textDocument/codeLens - (6)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:50:57.987 PM] Sending notification '$/cancelRequest'.
+Params: {"id":6}
+
+
+[Trace - 21:50:57.987 PM] Sending request 'textDocument/codeLens - (7)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:51:03.927 PM] Sending request 'textDocument/hover - (8)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"position":{"line":24,"character":37}}
+
+
+[Trace - 21:51:03.928 PM] Sending notification '$/cancelRequest'.
+Params: {"id":8}
+
+
+[Trace - 21:51:03.928 PM] Sending request 'textDocument/hover - (9)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"position":{"line":6,"character":7}}
+
+
+[Trace - 21:51:03.928 PM] Sending notification '$/cancelRequest'.
+Params: {"id":9}
+
+
+[Trace - 21:51:13.990 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:51:13 go env for C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\n(root C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank)\n(go version go version go1.14.2 windows/amd64)\n(valid build configuration = false)\n(build flags: [])\nGOMOD=\nGOSUMDB=sum.golang.org\nGOINSECURE=\nGOPROXY=https://proxy.golang.org,direct\nGONOSUMDB=\nGOPATH=C:\\Users\\myname\\go\nGOPRIVATE=\nGO111MODULE=\nGOCACHE=C:\\Users\\myname\\AppData\\Local\\go-build\nGOFLAGS=\nGOMODCACHE=\nGONOPROXY=\nGOROOT=C:\\Go\n\n"}
+
+
+[Info  - 9:51:16 PM] 2021/03/10 21:51:13 go env for C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank
+(root C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank)
+(go version go version go1.14.2 windows/amd64)
+(valid build configuration = false)
+(build flags: [])
+GOMOD=
+GOSUMDB=sum.golang.org
+GOINSECURE=
+GOPROXY=https://proxy.golang.org,direct
+GONOSUMDB=
+GOPATH=C:\Users\myname\go
+GOPRIVATE=
+GO111MODULE=
+GOCACHE=C:\Users\myname\AppData\Local\go-build
+GOFLAGS=
+GOMODCACHE=
+GONOPROXY=
+GOROOT=C:\Go
+
+
+[Trace - 21:51:17.328 PM] Sending request 'textDocument/codeAction - (10)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"range":{"start":{"line":6,"character":8},"end":{"line":6,"character":8}},"context":{"diagnostics":[]}}
+
+
+[Trace - 21:51:17.329 PM] Sending notification '$/cancelRequest'.
+Params: {"id":5}
+
+
+[Trace - 21:51:17.330 PM] Sending request 'textDocument/hover - (11)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"position":{"line":6,"character":7}}
+
+
+[Trace - 21:51:17.331 PM] Sending notification '$/cancelRequest'.
+Params: {"id":11}
+
+
+[Trace - 21:51:17.332 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go","version":5},"contentChanges":[{"range":{"start":{"line":6,"character":7},"end":{"line":6,"character":8}},"rangeLength":1,"text":""}]}
+
+
+[Trace - 21:51:17.332 PM] Sending notification '$/cancelRequest'.
+Params: {"id":4}
+
+
+[Trace - 21:51:17.332 PM] Sending notification '$/cancelRequest'.
+Params: {"id":10}
+
+
+[Trace - 21:51:17.333 PM] Sending request 'textDocument/foldingRange - (12)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:51:17.334 PM] Sending request 'textDocument/codeAction - (13)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"range":{"start":{"line":6,"character":7},"end":{"line":6,"character":7}},"context":{"diagnostics":[]}}
+
+
+[Trace - 21:51:17.334 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go","version":6},"contentChanges":[{"range":{"start":{"line":6,"character":7},"end":{"line":6,"character":7}},"rangeLength":0,"text":"\""}]}
+
+
+[Trace - 21:51:17.335 PM] Sending notification '$/cancelRequest'.
+Params: {"id":12}
+
+
+[Trace - 21:51:17.335 PM] Sending notification '$/cancelRequest'.
+Params: {"id":13}
+
+
+[Trace - 21:51:17.336 PM] Sending request 'textDocument/documentLink - (14)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:51:17.336 PM] Sending request 'textDocument/foldingRange - (15)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:51:17.336 PM] Sending request 'textDocument/codeAction - (16)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"range":{"start":{"line":6,"character":8},"end":{"line":6,"character":8}},"context":{"diagnostics":[]}}
+
+
+[Trace - 21:51:17.337 PM] Sending request 'textDocument/codeAction - (17)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"range":{"start":{"line":0,"character":0},"end":{"line":60,"character":1}},"context":{"diagnostics":[],"only":["source.organizeImports"]}}
+
+
+[Trace - 21:51:17.337 PM] Sending notification '$/cancelRequest'.
+Params: {"id":7}
+
+
+[Trace - 21:51:17.338 PM] Sending request 'textDocument/codeLens - (18)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:51:21.702 PM] Sending request 'textDocument/codeAction - (19)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"range":{"start":{"line":7,"character":1},"end":{"line":7,"character":1}},"context":{"diagnostics":[]}}
+
+
+[Trace - 21:51:21.705 PM] Sending notification '$/cancelRequest'.
+Params: {"id":16}
+
+
+[Trace - 21:51:22.067 PM] Sending request 'textDocument/codeAction - (20)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"range":{"start":{"line":0,"character":0},"end":{"line":60,"character":1}},"context":{"diagnostics":[]}}
+
+
+[Trace - 21:51:22.072 PM] Sending notification '$/cancelRequest'.
+Params: {"id":19}
+
+
+[Trace - 21:51:23.116 PM] Sending request 'textDocument/hover - (21)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"position":{"line":10,"character":22}}
+
+
+[Trace - 21:51:23.361 PM] Sending notification '$/cancelRequest'.
+Params: {"id":21}
+
+
+[Trace - 21:51:28.499 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:51:28 24.4216451s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -f {{context.ReleaseTags}}\n"}
+
+
+[Info  - 9:51:28 PM] 2021/03/10 21:51:28 24.4216451s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -f {{context.ReleaseTags}}
+
+[Trace - 21:51:28.949 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:51:28 24.8306604s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -f \"{{context.GOARCH}} {{context.Compiler}}\" -- unsafe\n"}
+
+
+[Info  - 9:51:28 PM] 2021/03/10 21:51:28 24.8306604s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -f "{{context.GOARCH}} {{context.Compiler}}" -- unsafe
+
+[Trace - 21:51:52.745 PM] Sending notification '$/cancelRequest'.
+Params: {"id":18}
+
+
+[Trace - 21:51:52.747 PM] Sending request 'textDocument/codeLens - (22)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:51:57.011 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:51:56 28.458739s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- ./ builtin\n"}
+
+
+[Info  - 9:51:57 PM] 2021/03/10 21:51:56 28.458739s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- ./ builtin
+
+[Trace - 21:52:00.180 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:00 3.1379976s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go env -json GOMOD GOPATH\n"}
+
+
+[Info  - 9:52:00 PM] 2021/03/10 21:52:00 3.1379976s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go env -json GOMOD GOPATH
+
+[Trace - 21:52:00.526 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:00 go/packages.Load\n\tsnapshot=0\n\tdirectory=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\n\tquery=[./ builtin]\n\tpackages=2\n"}
+
+
+[Info  - 9:52:00 PM] 2021/03/10 21:52:00 go/packages.Load
+	snapshot=0
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank
+	query=[./ builtin]
+	packages=2
+
+[Trace - 21:52:00.536 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:00 go/packages.Load\n\tsnapshot=0\n\tpackage=\"_/C_/Users/myname/Documents/Visual_Studio_Code/Projects/Golang/src/hackerrank\"\n\tfiles=[C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go]\n"}
+
+
+[Info  - 9:52:00 PM] 2021/03/10 21:52:00 go/packages.Load
+	snapshot=0
+	package="_/C_/Users/myname/Documents/Visual_Studio_Code/Projects/Golang/src/hackerrank"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank\main.go]
+
+[Trace - 21:52:01.303 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:01 go/packages.Load\n\tsnapshot=0\n\tpackage=\"builtin\"\n\tfiles=[C:\\Go\\src\\builtin\\builtin.go]\n"}
+
+
+[Info  - 9:52:01 PM] 2021/03/10 21:52:01 go/packages.Load
+	snapshot=0
+	package="builtin"
+	files=[C:\Go\src\builtin\builtin.go]
+
+[Trace - 21:52:01.315 PM] Received notification '$/progress'.
+Params: {"token":"5577006791947779410","value":{"kind":"end","message":"Finished loading packages."}}
+
+
+[Trace - 21:52:01.329 PM] Received request 'client/registerCapability - (3)'.
+Params: {"registrations":[{"id":"workspace/didChangeWatchedFiles-0","method":"workspace/didChangeWatchedFiles","registerOptions":{"watchers":[{"globPattern":"**/*.{go,mod,sum}","kind":7}]}}]}
+
+
+[Trace - 21:52:01.520 PM] Sending response 'client/registerCapability - (3)' in 190ms.
+Result: 
+
+
+[Trace - 21:52:01.521 PM] Sending notification '$/cancelRequest'.
+Params: {"id":3}
+
+
+[Trace - 21:52:01.522 PM] Sending request 'textDocument/documentSymbol - (23)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:52:01.556 PM] Received request 'client/registerCapability - (4)'.
+Params: {"registrations":[{"id":"workspace/didChangeConfiguration","method":"workspace/didChangeConfiguration"},{"id":"workspace/didChangeWorkspaceFolders","method":"workspace/didChangeWorkspaceFolders"}]}
+
+
+[Trace - 21:52:01.562 PM] Sending response 'client/registerCapability - (4)' in 5ms.
+Result: 
+
+
+[Trace - 21:52:01.957 PM] Received response 'textDocument/documentLink - (1)' in 65641ms.
+Result: [{"range":{"start":{"line":2,"character":6},"end":{"line":2,"character":9}},"target":"https://pkg.go.dev/fmt?utm_source=gopls"},{"range":{"start":{"line":3,"character":6},"end":{"line":3,"character":11}},"target":"https://pkg.go.dev/bufio?utm_source=gopls"},{"range":{"start":{"line":4,"character":5},"end":{"line":4,"character":12}},"target":"https://pkg.go.dev/strconv?utm_source=gopls"},{"range":{"start":{"line":5,"character":5},"end":{"line":5,"character":12}},"target":"https://pkg.go.dev/strings?utm_source=gopls"},{"range":{"start":{"line":6,"character":5},"end":{"line":6,"character":7}},"target":"https://pkg.go.dev/os?utm_source=gopls"}]
+
+
+[Error - Received] 21:52:01.958 PM #2 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.959 PM #3 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.959 PM #4 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.959 PM #5 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.959 PM #6 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.960 PM #7 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.960 PM #8 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.961 PM #9 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.962 PM #10 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.962 PM #11 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.980 PM #12 JSON RPC cancelled
+
+
+[Error - Received] 21:52:01.981 PM #13 JSON RPC cancelled
+
+
+[Trace - 21:52:10.937 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:10 8.8269779s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -f {{context.ReleaseTags}}\n"}
+
+
+[Info  - 9:52:10 PM] 2021/03/10 21:52:10 8.8269779s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -f {{context.ReleaseTags}}
+
+[Trace - 21:52:15.984 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:15 13.807995s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -f \"{{context.GOARCH}} {{context.Compiler}}\" -- unsafe\n"}
+
+
+[Info  - 9:52:15 PM] 2021/03/10 21:52:15 13.807995s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -f "{{context.GOARCH}} {{context.Compiler}}" -- unsafe
+
+[Trace - 21:52:17.350 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:17 15.1729915s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -f \"{{context.GOARCH}} {{context.Compiler}}\" -- unsafe\n"}
+
+
+[Info  - 9:52:17 PM] 2021/03/10 21:52:17 15.1729915s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -f "{{context.GOARCH}} {{context.Compiler}}" -- unsafe
+
+[Trace - 21:52:17.795 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:17 6.2889992s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- \"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\"\n"}
+
+
+[Info  - 9:52:17 PM] 2021/03/10 21:52:17 6.2889992s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- "C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank"
+
+[Trace - 21:52:18.908 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:18 16.7249974s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -f {{context.ReleaseTags}}\n"}
+
+
+[Info  - 9:52:18 PM] 2021/03/10 21:52:18 16.7249974s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -f {{context.ReleaseTags}}
+
+[Trace - 21:52:22.444 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:22 4.6539947s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go env -json GOMOD GOPATH\n"}
+
+
+[Info  - 9:52:22 PM] 2021/03/10 21:52:22 4.6539947s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go env -json GOMOD GOPATH
+
+[Trace - 21:52:25.072 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:25 6.1599963s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- \"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\"\n"}
+
+
+[Info  - 9:52:25 PM] 2021/03/10 21:52:25 6.1599963s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- "C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank"
+
+[Trace - 21:52:28.956 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:28 3.8819931s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go env -json GOMOD GOPATH\n"}
+
+
+[Info  - 9:52:28 PM] 2021/03/10 21:52:28 3.8819931s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go env -json GOMOD GOPATH
+
+[Trace - 21:52:46.965 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:46 24.4799984s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- \"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\\\\main.go\"\n"}
+
+
+[Info  - 9:52:46 PM] 2021/03/10 21:52:46 24.4799984s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- "C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go"
+
+[Trace - 21:52:47.336 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:47 go/packages.Load\n\tsnapshot=3\n\tdirectory=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\n\tquery=[file=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go]\n\tpackages=1\n"}
+
+
+[Trace - 21:52:47.336 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:47 go/packages.Load\n\tsnapshot=3\n\tpackage=\"command-line-arguments\"\n\tfiles=[C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go]\n"}
+
+
+[Info  - 9:52:47 PM] 2021/03/10 21:52:47 go/packages.Load
+	snapshot=3
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank
+	query=[file=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank\main.go]
+	packages=1
+
+[Info  - 9:52:47 PM] 2021/03/10 21:52:47 go/packages.Load
+	snapshot=3
+	package="command-line-arguments"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank\main.go]
+
+[Trace - 21:52:47.340 PM] Received response 'textDocument/documentLink - (14)' in 90002ms.
+Result: [{"range":{"start":{"line":2,"character":6},"end":{"line":2,"character":9}},"target":"https://pkg.go.dev/fmt?utm_source=gopls"},{"range":{"start":{"line":3,"character":6},"end":{"line":3,"character":11}},"target":"https://pkg.go.dev/bufio?utm_source=gopls"},{"range":{"start":{"line":4,"character":5},"end":{"line":4,"character":12}},"target":"https://pkg.go.dev/strconv?utm_source=gopls"},{"range":{"start":{"line":5,"character":5},"end":{"line":5,"character":12}},"target":"https://pkg.go.dev/strings?utm_source=gopls"},{"range":{"start":{"line":6,"character":5},"end":{"line":6,"character":7}},"target":"https://pkg.go.dev/os?utm_source=gopls"}]
+
+
+[Trace - 21:52:47.345 PM] Received response 'textDocument/foldingRange - (15)' in 90007ms.
+Result: [{"startLine":1,"startCharacter":8,"endLine":6,"endCharacter":8,"kind":"imports"},{"startLine":9,"startCharacter":13,"endLine":59,"endCharacter":5},{"startLine":12,"startCharacter":24,"endLine":58,"endCharacter":9},{"startLine":13,"startCharacter":16,"endLine":18,"endCharacter":20},{"startLine":15,"startCharacter":28,"endLine":16,"endCharacter":22},{"startLine":20,"startCharacter":16,"endLine":56,"endCharacter":15},{"startLine":26,"startCharacter":49,"endLine":28,"endCharacter":15,"kind":"comment"},{"startLine":29,"startCharacter":52,"endLine":30,"endCharacter":22},{"startLine":33,"startCharacter":38,"endLine":52,"endCharacter":47},{"startLine":34,"startCharacter":27,"endLine":43,"endCharacter":23},{"startLine":36,"startCharacter":47,"endLine":41,"endCharacter":31},{"startLine":37,"startCharacter":78,"endLine":39,"endCharacter":30},{"startLine":40,"startCharacter":32,"endLine":41,"endCharacter":31},{"startLine":46,"startCharacter":50,"endLine":47,"endCharacter":39,"kind":"comment"}]
+
+
+[Error - Received] 21:52:47.347 PM #16 JSON RPC cancelled
+
+
+[Trace - 21:52:47.364 PM] Received response 'textDocument/codeAction - (17)' in 90025ms.
+Result: [{"title":"Organize Imports","kind":"source.organizeImports","edit":{"documentChanges":[{"textDocument":{"version":6,"uri":"file:///C:/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"edits":[{"range":{"start":{"line":0,"character":12},"end":{"line":0,"character":13}},"newText":""},{"range":{"start":{"line":0,"character":13},"end":{"line":0,"character":13}},"newText":"\n"},{"range":{"start":{"line":1,"character":8},"end":{"line":1,"character":9}},"newText":""},{"range":{"start":{"line":2,"character":0},"end":{"line":2,"character":5}},"newText":""},{"range":{"start":{"line":2,"character":5},"end":{"line":2,"character":5}},"newText":"\t\"bufio\"\n\t"},{"range":{"start":{"line":2,"character":10},"end":{"line":2,"character":11}},"newText":""},{"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":5}},"newText":""},{"range":{"start":{"line":3,"character":5},"end":{"line":3,"character":5}},"newText":"\t"},{"range":{"start":{"line":3,"character":6},"end":{"line":3,"character":10}},"newText":""},{"range":{"start":{"line":3,"character":11},"end":{"line":3,"character":11}},"newText":"s"},{"range":{"start":{"line":3,"character":12},"end":{"line":3,"character":13}},"newText":""},{"range":{"start":{"line":4,"character":0},"end":{"line":4,"character":4}},"newText":""},{"range":{"start":{"line":4,"character":4},"end":{"line":4,"character":4}},"newText":"\t"},{"range":{"start":{"line":4,"character":13},"end":{"line":4,"character":14}},"newText":""},{"range":{"start":{"line":5,"character":0},"end":{"line":5,"character":4}},"newText":""},{"range":{"start":{"line":5,"character":4},"end":{"line":5,"character":4}},"newText":"\t"},{"range":{"start":{"line":5,"character":13},"end":{"line":6,"character":9}},"newText":""}]}]}}]
+
+
+[Trace - 21:52:47.473 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:47 fixImports(filename=\"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\\\\main.go\"), abs=\"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\\\\main.go\", srcDir=\"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\" ...\n"}
+
+
+[Error - Received] 21:52:47.473 PM #18 JSON RPC cancelled
+
+
+[Error - Received] 21:52:47.473 PM #19 JSON RPC cancelled
+
+
+[Info  - 9:52:47 PM] 2021/03/10 21:52:47 fixImports(filename="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go"), abs="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go", srcDir="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank" ...
+
+[Trace - 21:52:47.476 PM] Received response 'textDocument/codeAction - (20)' in 85407ms.
+Result: [{"title":"Organize Imports","kind":"source.organizeImports","edit":{"documentChanges":[{"textDocument":{"version":6,"uri":"file:///C:/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"edits":[{"range":{"start":{"line":0,"character":12},"end":{"line":0,"character":13}},"newText":""},{"range":{"start":{"line":0,"character":13},"end":{"line":0,"character":13}},"newText":"\n"},{"range":{"start":{"line":1,"character":8},"end":{"line":1,"character":9}},"newText":""},{"range":{"start":{"line":2,"character":0},"end":{"line":2,"character":5}},"newText":""},{"range":{"start":{"line":2,"character":5},"end":{"line":2,"character":5}},"newText":"\t\"bufio\"\n\t"},{"range":{"start":{"line":2,"character":10},"end":{"line":2,"character":11}},"newText":""},{"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":5}},"newText":""},{"range":{"start":{"line":3,"character":5},"end":{"line":3,"character":5}},"newText":"\t"},{"range":{"start":{"line":3,"character":6},"end":{"line":3,"character":10}},"newText":""},{"range":{"start":{"line":3,"character":11},"end":{"line":3,"character":11}},"newText":"s"},{"range":{"start":{"line":3,"character":12},"end":{"line":3,"character":13}},"newText":""},{"range":{"start":{"line":4,"character":0},"end":{"line":4,"character":4}},"newText":""},{"range":{"start":{"line":4,"character":4},"end":{"line":4,"character":4}},"newText":"\t"},{"range":{"start":{"line":4,"character":13},"end":{"line":4,"character":14}},"newText":""},{"range":{"start":{"line":5,"character":0},"end":{"line":5,"character":4}},"newText":""},{"range":{"start":{"line":5,"character":4},"end":{"line":5,"character":4}},"newText":"\t"},{"range":{"start":{"line":5,"character":13},"end":{"line":6,"character":9}},"newText":""}]}]}}]
+
+
+[Error - Received] 21:52:47.518 PM #21 JSON RPC cancelled
+
+
+[Trace - 21:52:47.518 PM] Received response 'textDocument/codeLens - (22)' in 54769ms.
+Result: null
+
+
+[Trace - 21:52:47.519 PM] Received response 'textDocument/documentSymbol - (23)' in 45995ms.
+Result: [{"name":"main","detail":"()","kind":12,"range":{"start":{"line":9,"character":0},"end":{"line":61,"character":0}},"selectionRange":{"start":{"line":9,"character":5},"end":{"line":9,"character":9}}}]
+
+
+[Trace - 21:52:47.519 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:47 fixImports(filename=\"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\\\\main.go\"), abs=\"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\\\\main.go\", srcDir=\"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\" ...\n"}
+
+
+[Info  - 9:52:47 PM] 2021/03/10 21:52:47 fixImports(filename="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go"), abs="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go", srcDir="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank" ...
+
+[Trace - 21:52:47.704 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go","version":7},"contentChanges":[{"range":{"start":{"line":5,"character":13},"end":{"line":6,"character":8}},"rangeLength":10,"text":""},{"range":{"start":{"line":5,"character":4},"end":{"line":5,"character":4}},"rangeLength":0,"text":"\t"},{"range":{"start":{"line":5,"character":0},"end":{"line":5,"character":4}},"rangeLength":4,"text":""},{"range":{"start":{"line":4,"character":4},"end":{"line":4,"character":4}},"rangeLength":0,"text":"\t"},{"range":{"start":{"line":4,"character":0},"end":{"line":4,"character":4}},"rangeLength":4,"text":""},{"range":{"start":{"line":3,"character":11},"end":{"line":3,"character":11}},"rangeLength":0,"text":"s"},{"range":{"start":{"line":3,"character":6},"end":{"line":3,"character":10}},"rangeLength":4,"text":""},{"range":{"start":{"line":3,"character":5},"end":{"line":3,"character":5}},"rangeLength":0,"text":"\t"},{"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":5}},"rangeLength":5,"text":""},{"range":{"start":{"line":2,"character":5},"end":{"line":2,"character":5}},"rangeLength":0,"text":"\t\"bufio\"\r\n\t"},{"range":{"start":{"line":2,"character":0},"end":{"line":2,"character":5}},"rangeLength":5,"text":""},{"range":{"start":{"line":0,"character":12},"end":{"line":0,"character":12}},"rangeLength":0,"text":"\r\n"}]}
+
+
+[Trace - 21:52:47.705 PM] Sending request 'textDocument/formatting - (24)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"options":{"tabSize":4,"insertSpaces":false}}
+
+
+[Trace - 21:52:47.754 PM] Received response 'textDocument/formatting - (24)' in 49ms.
+Result: [{"range":{"start":{"line":0,"character":12},"end":{"line":0,"character":13}},"newText":""},{"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":1}},"newText":""},{"range":{"start":{"line":2,"character":8},"end":{"line":2,"character":9}},"newText":""},{"range":{"start":{"line":3,"character":8},"end":{"line":3,"character":9}},"newText":""},{"range":{"start":{"line":4,"character":6},"end":{"line":4,"character":7}},"newText":""},{"range":{"start":{"line":5,"character":5},"end":{"line":5,"character":6}},"newText":""},{"range":{"start":{"line":6,"character":10},"end":{"line":6,"character":11}},"newText":""},{"range":{"start":{"line":7,"character":10},"end":{"line":7,"character":11}},"newText":""},{"range":{"start":{"line":8,"character":1},"end":{"line":8,"character":2}},"newText":""},{"range":{"start":{"line":9,"character":0},"end":{"line":9,"character":1}},"newText":""},{"range":{"start":{"line":10,"character":13},"end":{"line":10,"character":14}},"newText":""},{"range":{"start":{"line":11,"character":0},"end":{"line":11,"character":4}},"newText":""},{"range":{"start":{"line":11,"character":4},"end":{"line":11,"character":4}},"newText":"\t"},{"range":{"start":{"line":11,"character":41},"end":{"line":11,"character":42}},"newText":""},{"range":{"start":{"line":12,"character":0},"end":{"line":12,"character":4}},"newText":""},{"range":{"start":{"line":12,"character":4},"end":{"line":12,"character":4}},"newText":"\t"},{"range":{"start":{"line":12,"character":13},"end":{"line":12,"character":14}},"newText":""},{"range":{"start":{"line":13,"character":0},"end":{"line":13,"character":4}},"newText":""},{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"newText":"\t"},{"range":{"start":{"line":13,"character":24},"end":{"line":13,"character":25}},"newText":""},{"range":{"start":{"line":14,"character":0},"end":{"line":14,"character":8}},"newText":""},{"range":{"start":{"line":14,"character":8},"end":{"line":14,"character":8}},"newText":"\t\t"},{"range":{"start":{"line":14,"character":12},"end":{"line":14,"character":12}},"newText":" "},{"range":{"start":{"line":14,"character":14},"end":{"line":14,"character":14}},"newText":" "},{"range":{"start":{"line":14,"character":15},"end":{"line":14,"character":15}},"newText":" "},{"range":{"start":{"line":14,"character":16},"end":{"line":14,"character":17}},"newText":""},{"range":{"start":{"line":15,"character":0},"end":{"line":15,"character":12}},"newText":""},{"range":{"start":{"line":15,"character":12},"end":{"line":15,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":15,"character":14},"end":{"line":15,"character":14}},"newText":" "},{"range":{"start":{"line":15,"character":15},"end":{"line":15,"character":15}},"newText":" "},{"range":{"start":{"line":15,"character":45},"end":{"line":15,"character":48}},"newText":""},{"range":{"start":{"line":16,"character":0},"end":{"line":16,"character":12}},"newText":""},{"range":{"start":{"line":16,"character":12},"end":{"line":16,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":16,"character":16},"end":{"line":16,"character":16}},"newText":" "},{"range":{"start":{"line":16,"character":17},"end":{"line":16,"character":17}},"newText":" "},{"range":{"start":{"line":16,"character":23},"end":{"line":16,"character":23}},"newText":" "},{"range":{"start":{"line":16,"character":24},"end":{"line":16,"character":24}},"newText":" "},{"range":{"start":{"line":16,"character":27},"end":{"line":16,"character":27}},"newText":" "},{"range":{"start":{"line":16,"character":28},"end":{"line":16,"character":29}},"newText":""},{"range":{"start":{"line":17,"character":0},"end":{"line":17,"character":16}},"newText":""},{"range":{"start":{"line":17,"character":16},"end":{"line":17,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":17,"character":22},"end":{"line":17,"character":23}},"newText":""},{"range":{"start":{"line":18,"character":0},"end":{"line":18,"character":12}},"newText":""},{"range":{"start":{"line":18,"character":12},"end":{"line":18,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":18,"character":13},"end":{"line":18,"character":17}},"newText":""},{"range":{"start":{"line":19,"character":0},"end":{"line":19,"character":12}},"newText":""},{"range":{"start":{"line":19,"character":12},"end":{"line":19,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":19,"character":20},"end":{"line":19,"character":21}},"newText":""},{"range":{"start":{"line":20,"character":0},"end":{"line":20,"character":8}},"newText":""},{"range":{"start":{"line":20,"character":8},"end":{"line":20,"character":8}},"newText":"\t\t"},{"range":{"start":{"line":20,"character":9},"end":{"line":20,"character":10}},"newText":""},{"range":{"start":{"line":21,"character":0},"end":{"line":21,"character":8}},"newText":""},{"range":{"start":{"line":21,"character":8},"end":{"line":21,"character":8}},"newText":"\t\t"},{"range":{"start":{"line":21,"character":13},"end":{"line":21,"character":13}},"newText":" "},{"range":{"start":{"line":21,"character":14},"end":{"line":21,"character":14}},"newText":" "},{"range":{"start":{"line":21,"character":15},"end":{"line":21,"character":15}},"newText":" "},{"range":{"start":{"line":21,"character":16},"end":{"line":21,"character":17}},"newText":""},{"range":{"start":{"line":22,"character":0},"end":{"line":22,"character":12}},"newText":""},{"range":{"start":{"line":22,"character":12},"end":{"line":22,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":22,"character":21},"end":{"line":22,"character":22}},"newText":""},{"range":{"start":{"line":23,"character":0},"end":{"line":23,"character":12}},"newText":""},{"range":{"start":{"line":23,"character":12},"end":{"line":23,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":23,"character":23},"end":{"line":23,"character":24}},"newText":""},{"range":{"start":{"line":24,"character":0},"end":{"line":24,"character":12}},"newText":""},{"range":{"start":{"line":24,"character":12},"end":{"line":24,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":24,"character":23},"end":{"line":24,"character":24}},"newText":""},{"range":{"start":{"line":25,"character":0},"end":{"line":25,"character":12}},"newText":""},{"range":{"start":{"line":25,"character":12},"end":{"line":25,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":25,"character":16},"end":{"line":25,"character":16}},"newText":" "},{"range":{"start":{"line":25,"character":18},"end":{"line":25,"character":18}},"newText":" "},{"range":{"start":{"line":25,"character":47},"end":{"line":25,"character":47}},"newText":" "},{"range":{"start":{"line":25,"character":83},"end":{"line":25,"character":84}},"newText":""},{"range":{"start":{"line":26,"character":0},"end":{"line":26,"character":12}},"newText":""},{"range":{"start":{"line":26,"character":12},"end":{"line":26,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":26,"character":14},"end":{"line":26,"character":14}},"newText":" "},{"range":{"start":{"line":26,"character":41},"end":{"line":26,"character":41}},"newText":"             "},{"range":{"start":{"line":26,"character":59},"end":{"line":26,"character":60}},"newText":""},{"range":{"start":{"line":27,"character":0},"end":{"line":27,"character":11}},"newText":""},{"range":{"start":{"line":27,"character":11},"end":{"line":27,"character":11}},"newText":"\t\t\t"},{"range":{"start":{"line":27,"character":49},"end":{"line":27,"character":50}},"newText":""},{"range":{"start":{"line":28,"character":0},"end":{"line":28,"character":11}},"newText":""},{"range":{"start":{"line":28,"character":11},"end":{"line":28,"character":11}},"newText":"\t\t\t"},{"range":{"start":{"line":28,"character":48},"end":{"line":28,"character":49}},"newText":""},{"range":{"start":{"line":29,"character":0},"end":{"line":29,"character":11}},"newText":""},{"range":{"start":{"line":29,"character":11},"end":{"line":29,"character":11}},"newText":"\t\t\t"},{"range":{"start":{"line":29,"character":15},"end":{"line":29,"character":16}},"newText":""},{"range":{"start":{"line":30,"character":0},"end":{"line":30,"character":12}},"newText":""},{"range":{"start":{"line":30,"character":12},"end":{"line":30,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":30,"character":27},"end":{"line":30,"character":27}},"newText":" "},{"range":{"start":{"line":30,"character":28},"end":{"line":30,"character":28}},"newText":" "},{"range":{"start":{"line":30,"character":45},"end":{"line":30,"character":45}},"newText":" "},{"range":{"start":{"line":30,"character":46},"end":{"line":30,"character":46}},"newText":" "},{"range":{"start":{"line":30,"character":51},"end":{"line":30,"character":51}},"newText":" "},{"range":{"start":{"line":30,"character":52},"end":{"line":30,"character":53}},"newText":""},{"range":{"start":{"line":31,"character":0},"end":{"line":31,"character":16}},"newText":""},{"range":{"start":{"line":31,"character":16},"end":{"line":31,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":31,"character":22},"end":{"line":31,"character":23}},"newText":""},{"range":{"start":{"line":32,"character":0},"end":{"line":32,"character":12}},"newText":""},{"range":{"start":{"line":32,"character":12},"end":{"line":32,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":32,"character":13},"end":{"line":32,"character":14}},"newText":""},{"range":{"start":{"line":33,"character":0},"end":{"line":33,"character":12}},"newText":""},{"range":{"start":{"line":33,"character":12},"end":{"line":33,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":33,"character":21},"end":{"line":33,"character":21}},"newText":" "},{"range":{"start":{"line":33,"character":23},"end":{"line":33,"character":23}},"newText":" "},{"range":{"start":{"line":33,"character":35},"end":{"line":33,"character":35}},"newText":" "},{"range":{"start":{"line":33,"character":36},"end":{"line":33,"character":36}},"newText":" "},{"range":{"start":{"line":33,"character":37},"end":{"line":33,"character":37}},"newText":" "},{"range":{"start":{"line":33,"character":38},"end":{"line":33,"character":38}},"newText":" "},{"range":{"start":{"line":33,"character":39},"end":{"line":33,"character":40}},"newText":""},{"range":{"start":{"line":34,"character":0},"end":{"line":34,"character":12}},"newText":""},{"range":{"start":{"line":34,"character":12},"end":{"line":34,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":34,"character":17},"end":{"line":34,"character":17}},"newText":" "},{"range":{"start":{"line":34,"character":19},"end":{"line":34,"character":19}},"newText":" "},{"range":{"start":{"line":34,"character":23},"end":{"line":34,"character":23}},"newText":" "},{"range":{"start":{"line":34,"character":24},"end":{"line":34,"character":24}},"newText":" "},{"range":{"start":{"line":34,"character":34},"end":{"line":34,"character":34}},"newText":" "},{"range":{"start":{"line":34,"character":37},"end":{"line":34,"character":37}},"newText":" "},{"range":{"start":{"line":34,"character":38},"end":{"line":34,"character":39}},"newText":""},{"range":{"start":{"line":35,"character":0},"end":{"line":35,"character":16}},"newText":""},{"range":{"start":{"line":35,"character":16},"end":{"line":35,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":35,"character":27},"end":{"line":35,"character":28}},"newText":""},{"range":{"start":{"line":36,"character":0},"end":{"line":36,"character":19}},"newText":""},{"range":{"start":{"line":36,"character":19},"end":{"line":36,"character":19}},"newText":"\t\t\t\t\t"},{"range":{"start":{"line":36,"character":57},"end":{"line":36,"character":59}},"newText":""},{"range":{"start":{"line":37,"character":0},"end":{"line":37,"character":20}},"newText":""},{"range":{"start":{"line":37,"character":20},"end":{"line":37,"character":20}},"newText":"\t\t\t\t\t"},{"range":{"start":{"line":37,"character":47},"end":{"line":37,"character":48}},"newText":""},{"range":{"start":{"line":38,"character":0},"end":{"line":38,"character":24}},"newText":""},{"range":{"start":{"line":38,"character":24},"end":{"line":38,"character":24}},"newText":"\t\t\t\t\t"},{"range":{"start":{"line":38,"character":78},"end":{"line":38,"character":79}},"newText":""},{"range":{"start":{"line":39,"character":0},"end":{"line":39,"character":27}},"newText":""},{"range":{"start":{"line":39,"character":27},"end":{"line":39,"character":27}},"newText":"\t\t\t\t\t\t"},{"range":{"start":{"line":39,"character":57},"end":{"line":39,"character":57}},"newText":" "},{"range":{"start":{"line":39,"character":76},"end":{"line":39,"character":78}},"newText":""},{"range":{"start":{"line":40,"character":0},"end":{"line":40,"character":27}},"newText":""},{"range":{"start":{"line":40,"character":27},"end":{"line":40,"character":27}},"newText":"\t\t\t\t\t\t"},{"range":{"start":{"line":40,"character":30},"end":{"line":40,"character":36}},"newText":""},{"range":{"start":{"line":41,"character":0},"end":{"line":41,"character":24}},"newText":""},{"range":{"start":{"line":41,"character":24},"end":{"line":41,"character":24}},"newText":"\t\t\t\t\t"},{"range":{"start":{"line":41,"character":32},"end":{"line":41,"character":33}},"newText":""},{"range":{"start":{"line":42,"character":0},"end":{"line":42,"character":28}},"newText":""},{"range":{"start":{"line":42,"character":28},"end":{"line":42,"character":28}},"newText":"\t\t\t\t\t\t"},{"range":{"start":{"line":42,"character":31},"end":{"line":42,"character":32}},"newText":""},{"range":{"start":{"line":43,"character":0},"end":{"line":43,"character":20}},"newText":""},{"range":{"start":{"line":43,"character":20},"end":{"line":43,"character":20}},"newText":"\t\t\t\t\t"},{"range":{"start":{"line":43,"character":21},"end":{"line":43,"character":42}},"newText":""},{"range":{"start":{"line":44,"character":0},"end":{"line":44,"character":20}},"newText":""},{"range":{"start":{"line":44,"character":20},"end":{"line":44,"character":20}},"newText":"\t\t\t\t\t"},{"range":{"start":{"line":44,"character":23},"end":{"line":44,"character":40}},"newText":""},{"range":{"start":{"line":45,"character":0},"end":{"line":45,"character":16}},"newText":""},{"range":{"start":{"line":45,"character":16},"end":{"line":45,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":45,"character":17},"end":{"line":45,"character":18}},"newText":""},{"range":{"start":{"line":46,"character":0},"end":{"line":46,"character":16}},"newText":""},{"range":{"start":{"line":46,"character":16},"end":{"line":46,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":46,"character":45},"end":{"line":46,"character":45}},"newText":" "},{"range":{"start":{"line":46,"character":47},"end":{"line":46,"character":49}},"newText":""},{"range":{"start":{"line":47,"character":0},"end":{"line":47,"character":16}},"newText":""},{"range":{"start":{"line":47,"character":16},"end":{"line":47,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":47,"character":49},"end":{"line":47,"character":51}},"newText":""},{"range":{"start":{"line":48,"character":0},"end":{"line":48,"character":16}},"newText":""},{"range":{"start":{"line":48,"character":16},"end":{"line":48,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":48,"character":38},"end":{"line":48,"character":40}},"newText":""},{"range":{"start":{"line":49,"character":0},"end":{"line":49,"character":4}},"newText":""},{"range":{"start":{"line":49,"character":4},"end":{"line":49,"character":4}},"newText":"\t\t\t\tv"},{"range":{"start":{"line":49,"character":5},"end":{"line":49,"character":5}},"newText":"="},{"range":{"start":{"line":49,"character":6},"end":{"line":49,"character":18}},"newText":""},{"range":{"start":{"line":49,"character":19},"end":{"line":49,"character":20}},"newText":""},{"range":{"start":{"line":50,"character":0},"end":{"line":50,"character":0}},"newText":"\t\t\t\tc"},{"range":{"start":{"line":50,"character":1},"end":{"line":50,"character":15}},"newText":""},{"range":{"start":{"line":50,"character":15},"end":{"line":50,"character":15}},"newText":"="},{"range":{"start":{"line":50,"character":16},"end":{"line":50,"character":18}},"newText":""},{"range":{"start":{"line":50,"character":19},"end":{"line":50,"character":20}},"newText":""},{"range":{"start":{"line":51,"character":0},"end":{"line":51,"character":16}},"newText":""},{"range":{"start":{"line":51,"character":16},"end":{"line":51,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":51,"character":19},"end":{"line":51,"character":23}},"newText":""},{"range":{"start":{"line":52,"character":0},"end":{"line":52,"character":16}},"newText":""},{"range":{"start":{"line":52,"character":16},"end":{"line":52,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":52,"character":17},"end":{"line":52,"character":17}},"newText":" "},{"range":{"start":{"line":52,"character":18},"end":{"line":52,"character":18}},"newText":" "},{"range":{"start":{"line":52,"character":19},"end":{"line":52,"character":19}},"newText":" "},{"range":{"start":{"line":52,"character":20},"end":{"line":52,"character":20}},"newText":" "},{"range":{"start":{"line":52,"character":21},"end":{"line":52,"character":22}},"newText":""},{"range":{"start":{"line":53,"character":0},"end":{"line":53,"character":16}},"newText":""},{"range":{"start":{"line":53,"character":16},"end":{"line":53,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":53,"character":45},"end":{"line":53,"character":45}},"newText":" "},{"range":{"start":{"line":53,"character":47},"end":{"line":53,"character":49}},"newText":""},{"range":{"start":{"line":54,"character":0},"end":{"line":54,"character":16}},"newText":""},{"range":{"start":{"line":54,"character":16},"end":{"line":54,"character":16}},"newText":"\t\t\t\t"},{"range":{"start":{"line":54,"character":36},"end":{"line":54,"character":37}},"newText":""},{"range":{"start":{"line":55,"character":0},"end":{"line":55,"character":12}},"newText":""},{"range":{"start":{"line":55,"character":12},"end":{"line":55,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":55,"character":13},"end":{"line":55,"character":14}},"newText":""},{"range":{"start":{"line":56,"character":0},"end":{"line":56,"character":12}},"newText":""},{"range":{"start":{"line":56,"character":12},"end":{"line":56,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":56,"character":27},"end":{"line":56,"character":28}},"newText":""},{"range":{"start":{"line":57,"character":0},"end":{"line":57,"character":12}},"newText":""},{"range":{"start":{"line":57,"character":12},"end":{"line":57,"character":12}},"newText":"\t\t\t"},{"range":{"start":{"line":57,"character":15},"end":{"line":57,"character":16}},"newText":""},{"range":{"start":{"line":58,"character":0},"end":{"line":58,"character":13}},"newText":""},{"range":{"start":{"line":59,"character":0},"end":{"line":59,"character":8}},"newText":""},{"range":{"start":{"line":59,"character":8},"end":{"line":59,"character":8}},"newText":"\t\t"},{"range":{"start":{"line":59,"character":9},"end":{"line":59,"character":10}},"newText":""},{"range":{"start":{"line":60,"character":0},"end":{"line":60,"character":4}},"newText":""},{"range":{"start":{"line":60,"character":4},"end":{"line":60,"character":4}},"newText":"\t"},{"range":{"start":{"line":60,"character":5},"end":{"line":60,"character":10}},"newText":""},{"range":{"start":{"line":62,"character":0},"end":{"line":62,"character":0}},"newText":"\n"}]
+
+
+[Trace - 21:52:47.787 PM] Sending request 'textDocument/foldingRange - (25)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:52:47.820 PM] Received response 'textDocument/foldingRange - (25)' in 33ms.
+Result: [{"startLine":2,"startCharacter":8,"endLine":7,"endCharacter":10,"kind":"imports"},{"startLine":10,"startCharacter":13,"endLine":60,"endCharacter":5},{"startLine":13,"startCharacter":24,"endLine":59,"endCharacter":9},{"startLine":14,"startCharacter":16,"endLine":19,"endCharacter":20},{"startLine":16,"startCharacter":28,"endLine":17,"endCharacter":22},{"startLine":21,"startCharacter":16,"endLine":57,"endCharacter":15},{"startLine":27,"startCharacter":49,"endLine":29,"endCharacter":15,"kind":"comment"},{"startLine":30,"startCharacter":52,"endLine":31,"endCharacter":22},{"startLine":34,"startCharacter":38,"endLine":53,"endCharacter":47},{"startLine":35,"startCharacter":27,"endLine":44,"endCharacter":23},{"startLine":37,"startCharacter":47,"endLine":42,"endCharacter":31},{"startLine":38,"startCharacter":78,"endLine":40,"endCharacter":30},{"startLine":41,"startCharacter":32,"endLine":42,"endCharacter":31},{"startLine":47,"startCharacter":50,"endLine":48,"endCharacter":39,"kind":"comment"}]
+
+
+[Trace - 21:52:47.879 PM] Sending notification 'textDocument/didChange'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go","version":8},"contentChanges":[{"range":{"start":{"line":61,"character":1},"end":{"line":61,"character":1}},"rangeLength":0,"text":"\r\n"},{"range":{"start":{"line":60,"character":5},"end":{"line":60,"character":9}},"rangeLength":4,"text":""},{"range":{"start":{"line":60,"character":4},"end":{"line":60,"character":4}},"rangeLength":0,"text":"\t"},{"range":{"start":{"line":60,"character":0},"end":{"line":60,"character":4}},"rangeLength":4,"text":""},{"range":{"start":{"line":59,"character":8},"end":{"line":59,"character":8}},"rangeLength":0,"text":"\t\t"},{"range":{"start":{"line":59,"character":0},"end":{"line":59,"character":8}},"rangeLength":8,"text":""},{"range":{"start":{"line":58,"character":0},"end":{"line":58,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":57,"character":12},"end":{"line":57,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":57,"character":0},"end":{"line":57,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":56,"character":12},"end":{"line":56,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":56,"character":0},"end":{"line":56,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":55,"character":12},"end":{"line":55,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":55,"character":0},"end":{"line":55,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":54,"character":16},"end":{"line":54,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":54,"character":0},"end":{"line":54,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":53,"character":47},"end":{"line":53,"character":48}},"rangeLength":1,"text":""},{"range":{"start":{"line":53,"character":45},"end":{"line":53,"character":45}},"rangeLength":0,"text":" "},{"range":{"start":{"line":53,"character":16},"end":{"line":53,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":53,"character":0},"end":{"line":53,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":52,"character":20},"end":{"line":52,"character":20}},"rangeLength":0,"text":" "},{"range":{"start":{"line":52,"character":19},"end":{"line":52,"character":19}},"rangeLength":0,"text":" "},{"range":{"start":{"line":52,"character":18},"end":{"line":52,"character":18}},"rangeLength":0,"text":" "},{"range":{"start":{"line":52,"character":17},"end":{"line":52,"character":17}},"rangeLength":0,"text":" "},{"range":{"start":{"line":52,"character":16},"end":{"line":52,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":52,"character":0},"end":{"line":52,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":51,"character":19},"end":{"line":51,"character":22}},"rangeLength":3,"text":""},{"range":{"start":{"line":51,"character":16},"end":{"line":51,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":51,"character":0},"end":{"line":51,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":50,"character":16},"end":{"line":50,"character":18}},"rangeLength":2,"text":""},{"range":{"start":{"line":50,"character":15},"end":{"line":50,"character":15}},"rangeLength":0,"text":"="},{"range":{"start":{"line":50,"character":1},"end":{"line":50,"character":15}},"rangeLength":14,"text":""},{"range":{"start":{"line":50,"character":0},"end":{"line":50,"character":0}},"rangeLength":0,"text":"\t\t\t\tc"},{"range":{"start":{"line":49,"character":6},"end":{"line":49,"character":18}},"rangeLength":12,"text":""},{"range":{"start":{"line":49,"character":5},"end":{"line":49,"character":5}},"rangeLength":0,"text":"="},{"range":{"start":{"line":49,"character":4},"end":{"line":49,"character":4}},"rangeLength":0,"text":"\t\t\t\tv"},{"range":{"start":{"line":49,"character":0},"end":{"line":49,"character":4}},"rangeLength":4,"text":""},{"range":{"start":{"line":48,"character":38},"end":{"line":48,"character":39}},"rangeLength":1,"text":""},{"range":{"start":{"line":48,"character":16},"end":{"line":48,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":48,"character":0},"end":{"line":48,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":47,"character":49},"end":{"line":47,"character":50}},"rangeLength":1,"text":""},{"range":{"start":{"line":47,"character":16},"end":{"line":47,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":47,"character":0},"end":{"line":47,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":46,"character":47},"end":{"line":46,"character":48}},"rangeLength":1,"text":""},{"range":{"start":{"line":46,"character":45},"end":{"line":46,"character":45}},"rangeLength":0,"text":" "},{"range":{"start":{"line":46,"character":16},"end":{"line":46,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":46,"character":0},"end":{"line":46,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":45,"character":16},"end":{"line":45,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":45,"character":0},"end":{"line":45,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":44,"character":23},"end":{"line":44,"character":39}},"rangeLength":16,"text":""},{"range":{"start":{"line":44,"character":20},"end":{"line":44,"character":20}},"rangeLength":0,"text":"\t\t\t\t\t"},{"range":{"start":{"line":44,"character":0},"end":{"line":44,"character":20}},"rangeLength":20,"text":""},{"range":{"start":{"line":43,"character":21},"end":{"line":43,"character":41}},"rangeLength":20,"text":""},{"range":{"start":{"line":43,"character":20},"end":{"line":43,"character":20}},"rangeLength":0,"text":"\t\t\t\t\t"},{"range":{"start":{"line":43,"character":0},"end":{"line":43,"character":20}},"rangeLength":20,"text":""},{"range":{"start":{"line":42,"character":28},"end":{"line":42,"character":28}},"rangeLength":0,"text":"\t\t\t\t\t\t"},{"range":{"start":{"line":42,"character":0},"end":{"line":42,"character":28}},"rangeLength":28,"text":""},{"range":{"start":{"line":41,"character":24},"end":{"line":41,"character":24}},"rangeLength":0,"text":"\t\t\t\t\t"},{"range":{"start":{"line":41,"character":0},"end":{"line":41,"character":24}},"rangeLength":24,"text":""},{"range":{"start":{"line":40,"character":30},"end":{"line":40,"character":35}},"rangeLength":5,"text":""},{"range":{"start":{"line":40,"character":27},"end":{"line":40,"character":27}},"rangeLength":0,"text":"\t\t\t\t\t\t"},{"range":{"start":{"line":40,"character":0},"end":{"line":40,"character":27}},"rangeLength":27,"text":""},{"range":{"start":{"line":39,"character":76},"end":{"line":39,"character":77}},"rangeLength":1,"text":""},{"range":{"start":{"line":39,"character":57},"end":{"line":39,"character":57}},"rangeLength":0,"text":" "},{"range":{"start":{"line":39,"character":27},"end":{"line":39,"character":27}},"rangeLength":0,"text":"\t\t\t\t\t\t"},{"range":{"start":{"line":39,"character":0},"end":{"line":39,"character":27}},"rangeLength":27,"text":""},{"range":{"start":{"line":38,"character":24},"end":{"line":38,"character":24}},"rangeLength":0,"text":"\t\t\t\t\t"},{"range":{"start":{"line":38,"character":0},"end":{"line":38,"character":24}},"rangeLength":24,"text":""},{"range":{"start":{"line":37,"character":20},"end":{"line":37,"character":20}},"rangeLength":0,"text":"\t\t\t\t\t"},{"range":{"start":{"line":37,"character":0},"end":{"line":37,"character":20}},"rangeLength":20,"text":""},{"range":{"start":{"line":36,"character":57},"end":{"line":36,"character":58}},"rangeLength":1,"text":""},{"range":{"start":{"line":36,"character":19},"end":{"line":36,"character":19}},"rangeLength":0,"text":"\t\t\t\t\t"},{"range":{"start":{"line":36,"character":0},"end":{"line":36,"character":19}},"rangeLength":19,"text":""},{"range":{"start":{"line":35,"character":16},"end":{"line":35,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":35,"character":0},"end":{"line":35,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":34,"character":37},"end":{"line":34,"character":37}},"rangeLength":0,"text":" "},{"range":{"start":{"line":34,"character":34},"end":{"line":34,"character":34}},"rangeLength":0,"text":" "},{"range":{"start":{"line":34,"character":24},"end":{"line":34,"character":24}},"rangeLength":0,"text":" "},{"range":{"start":{"line":34,"character":23},"end":{"line":34,"character":23}},"rangeLength":0,"text":" "},{"range":{"start":{"line":34,"character":19},"end":{"line":34,"character":19}},"rangeLength":0,"text":" "},{"range":{"start":{"line":34,"character":17},"end":{"line":34,"character":17}},"rangeLength":0,"text":" "},{"range":{"start":{"line":34,"character":12},"end":{"line":34,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":34,"character":0},"end":{"line":34,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":33,"character":38},"end":{"line":33,"character":38}},"rangeLength":0,"text":" "},{"range":{"start":{"line":33,"character":37},"end":{"line":33,"character":37}},"rangeLength":0,"text":" "},{"range":{"start":{"line":33,"character":36},"end":{"line":33,"character":36}},"rangeLength":0,"text":" "},{"range":{"start":{"line":33,"character":35},"end":{"line":33,"character":35}},"rangeLength":0,"text":" "},{"range":{"start":{"line":33,"character":23},"end":{"line":33,"character":23}},"rangeLength":0,"text":" "},{"range":{"start":{"line":33,"character":21},"end":{"line":33,"character":21}},"rangeLength":0,"text":" "},{"range":{"start":{"line":33,"character":12},"end":{"line":33,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":33,"character":0},"end":{"line":33,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":32,"character":12},"end":{"line":32,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":32,"character":0},"end":{"line":32,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":31,"character":16},"end":{"line":31,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":31,"character":0},"end":{"line":31,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":30,"character":51},"end":{"line":30,"character":51}},"rangeLength":0,"text":" "},{"range":{"start":{"line":30,"character":46},"end":{"line":30,"character":46}},"rangeLength":0,"text":" "},{"range":{"start":{"line":30,"character":45},"end":{"line":30,"character":45}},"rangeLength":0,"text":" "},{"range":{"start":{"line":30,"character":28},"end":{"line":30,"character":28}},"rangeLength":0,"text":" "},{"range":{"start":{"line":30,"character":27},"end":{"line":30,"character":27}},"rangeLength":0,"text":" "},{"range":{"start":{"line":30,"character":12},"end":{"line":30,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":30,"character":0},"end":{"line":30,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":29,"character":11},"end":{"line":29,"character":11}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":29,"character":0},"end":{"line":29,"character":11}},"rangeLength":11,"text":""},{"range":{"start":{"line":28,"character":11},"end":{"line":28,"character":11}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":28,"character":0},"end":{"line":28,"character":11}},"rangeLength":11,"text":""},{"range":{"start":{"line":27,"character":11},"end":{"line":27,"character":11}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":27,"character":0},"end":{"line":27,"character":11}},"rangeLength":11,"text":""},{"range":{"start":{"line":26,"character":41},"end":{"line":26,"character":41}},"rangeLength":0,"text":"             "},{"range":{"start":{"line":26,"character":14},"end":{"line":26,"character":14}},"rangeLength":0,"text":" "},{"range":{"start":{"line":26,"character":12},"end":{"line":26,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":26,"character":0},"end":{"line":26,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":25,"character":47},"end":{"line":25,"character":47}},"rangeLength":0,"text":" "},{"range":{"start":{"line":25,"character":18},"end":{"line":25,"character":18}},"rangeLength":0,"text":" "},{"range":{"start":{"line":25,"character":16},"end":{"line":25,"character":16}},"rangeLength":0,"text":" "},{"range":{"start":{"line":25,"character":12},"end":{"line":25,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":25,"character":0},"end":{"line":25,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":24,"character":12},"end":{"line":24,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":24,"character":0},"end":{"line":24,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":23,"character":12},"end":{"line":23,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":23,"character":0},"end":{"line":23,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":22,"character":12},"end":{"line":22,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":22,"character":0},"end":{"line":22,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":21,"character":15},"end":{"line":21,"character":15}},"rangeLength":0,"text":" "},{"range":{"start":{"line":21,"character":14},"end":{"line":21,"character":14}},"rangeLength":0,"text":" "},{"range":{"start":{"line":21,"character":13},"end":{"line":21,"character":13}},"rangeLength":0,"text":" "},{"range":{"start":{"line":21,"character":8},"end":{"line":21,"character":8}},"rangeLength":0,"text":"\t\t"},{"range":{"start":{"line":21,"character":0},"end":{"line":21,"character":8}},"rangeLength":8,"text":""},{"range":{"start":{"line":20,"character":8},"end":{"line":20,"character":8}},"rangeLength":0,"text":"\t\t"},{"range":{"start":{"line":20,"character":0},"end":{"line":20,"character":8}},"rangeLength":8,"text":""},{"range":{"start":{"line":19,"character":12},"end":{"line":19,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":19,"character":0},"end":{"line":19,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":18,"character":13},"end":{"line":18,"character":16}},"rangeLength":3,"text":""},{"range":{"start":{"line":18,"character":12},"end":{"line":18,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":18,"character":0},"end":{"line":18,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":17,"character":16},"end":{"line":17,"character":16}},"rangeLength":0,"text":"\t\t\t\t"},{"range":{"start":{"line":17,"character":0},"end":{"line":17,"character":16}},"rangeLength":16,"text":""},{"range":{"start":{"line":16,"character":27},"end":{"line":16,"character":27}},"rangeLength":0,"text":" "},{"range":{"start":{"line":16,"character":24},"end":{"line":16,"character":24}},"rangeLength":0,"text":" "},{"range":{"start":{"line":16,"character":23},"end":{"line":16,"character":23}},"rangeLength":0,"text":" "},{"range":{"start":{"line":16,"character":17},"end":{"line":16,"character":17}},"rangeLength":0,"text":" "},{"range":{"start":{"line":16,"character":16},"end":{"line":16,"character":16}},"rangeLength":0,"text":" "},{"range":{"start":{"line":16,"character":12},"end":{"line":16,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":16,"character":0},"end":{"line":16,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":15,"character":45},"end":{"line":15,"character":47}},"rangeLength":2,"text":""},{"range":{"start":{"line":15,"character":15},"end":{"line":15,"character":15}},"rangeLength":0,"text":" "},{"range":{"start":{"line":15,"character":14},"end":{"line":15,"character":14}},"rangeLength":0,"text":" "},{"range":{"start":{"line":15,"character":12},"end":{"line":15,"character":12}},"rangeLength":0,"text":"\t\t\t"},{"range":{"start":{"line":15,"character":0},"end":{"line":15,"character":12}},"rangeLength":12,"text":""},{"range":{"start":{"line":14,"character":15},"end":{"line":14,"character":15}},"rangeLength":0,"text":" "},{"range":{"start":{"line":14,"character":14},"end":{"line":14,"character":14}},"rangeLength":0,"text":" "},{"range":{"start":{"line":14,"character":12},"end":{"line":14,"character":12}},"rangeLength":0,"text":" "},{"range":{"start":{"line":14,"character":8},"end":{"line":14,"character":8}},"rangeLength":0,"text":"\t\t"},{"range":{"start":{"line":14,"character":0},"end":{"line":14,"character":8}},"rangeLength":8,"text":""},{"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":4}},"rangeLength":0,"text":"\t"},{"range":{"start":{"line":13,"character":0},"end":{"line":13,"character":4}},"rangeLength":4,"text":""},{"range":{"start":{"line":12,"character":4},"end":{"line":12,"character":4}},"rangeLength":0,"text":"\t"},{"range":{"start":{"line":12,"character":0},"end":{"line":12,"character":4}},"rangeLength":4,"text":""},{"range":{"start":{"line":11,"character":4},"end":{"line":11,"character":4}},"rangeLength":0,"text":"\t"},{"range":{"start":{"line":11,"character":0},"end":{"line":11,"character":4}},"rangeLength":4,"text":""}]}
+
+
+[Trace - 21:52:48.951 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:48 19.986s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- \"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\\\\main.go\"\n"}
+
+
+[Info  - 9:52:49 PM] 2021/03/10 21:52:48 19.986s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- "C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go"
+
+[Trace - 21:52:49.697 PM] Sending notification 'textDocument/didSave'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go","version":8}}
+
+
+[Trace - 21:52:49.697 PM] Sending request 'textDocument/foldingRange - (26)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:52:49.698 PM] Sending request 'textDocument/codeAction - (27)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"range":{"start":{"line":0,"character":0},"end":{"line":62,"character":0}},"context":{"diagnostics":[]}}
+
+
+[Trace - 21:52:49.699 PM] Sending request 'textDocument/documentLink - (28)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:52:49.716 PM] Received response 'textDocument/foldingRange - (26)' in 18ms.
+Result: [{"startLine":2,"startCharacter":8,"endLine":7,"endCharacter":10,"kind":"imports"},{"startLine":10,"startCharacter":13,"endLine":60,"endCharacter":2},{"startLine":13,"startCharacter":21,"endLine":59,"endCharacter":3},{"startLine":14,"startCharacter":13,"endLine":19,"endCharacter":11},{"startLine":16,"startCharacter":24,"endLine":17,"endCharacter":10},{"startLine":21,"startCharacter":13,"endLine":57,"endCharacter":6},{"startLine":27,"startCharacter":41,"endLine":29,"endCharacter":7,"kind":"comment"},{"startLine":30,"startCharacter":48,"endLine":31,"endCharacter":10},{"startLine":34,"startCharacter":35,"endLine":53,"endCharacter":36},{"startLine":35,"startCharacter":15,"endLine":44,"endCharacter":8},{"startLine":37,"startCharacter":32,"endLine":42,"endCharacter":9},{"startLine":38,"startCharacter":59,"endLine":40,"endCharacter":9},{"startLine":41,"startCharacter":13,"endLine":42,"endCharacter":9},{"startLine":47,"startCharacter":37,"endLine":48,"endCharacter":26,"kind":"comment"}]
+
+
+[Trace - 21:52:49.720 PM] Received response 'textDocument/codeAction - (27)' in 22ms.
+Result: [{"title":"Organize Imports","kind":"source.organizeImports","edit":{"documentChanges":[{"textDocument":{"version":8,"uri":"file:///C:/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"},"edits":[{"range":{"start":{"line":0,"character":12},"end":{"line":0,"character":13}},"newText":""},{"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":1}},"newText":""},{"range":{"start":{"line":2,"character":8},"end":{"line":2,"character":9}},"newText":""},{"range":{"start":{"line":3,"character":8},"end":{"line":3,"character":9}},"newText":""},{"range":{"start":{"line":4,"character":6},"end":{"line":4,"character":7}},"newText":""},{"range":{"start":{"line":5,"character":5},"end":{"line":5,"character":6}},"newText":""},{"range":{"start":{"line":6,"character":10},"end":{"line":6,"character":11}},"newText":""},{"range":{"start":{"line":7,"character":10},"end":{"line":7,"character":11}},"newText":""}]}]}}]
+
+
+[Trace - 21:52:49.720 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:49 fixImports(filename=\"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\\\\main.go\"), abs=\"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\\\\main.go\", srcDir=\"C:\\\\Users\\\\myname\\\\Documents\\\\Visual Studio Code\\\\Projects\\\\Golang\\\\src\\\\hackerrank\" ...\n"}
+
+
+[Info  - 9:52:49 PM] 2021/03/10 21:52:49 fixImports(filename="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go"), abs="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go", srcDir="C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank" ...
+
+[Trace - 21:52:49.729 PM] Received response 'textDocument/documentLink - (28)' in 30ms.
+Result: [{"range":{"start":{"line":3,"character":2},"end":{"line":3,"character":7}},"target":"https://pkg.go.dev/bufio?utm_source=gopls"},{"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":5}},"target":"https://pkg.go.dev/fmt?utm_source=gopls"},{"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":4}},"target":"https://pkg.go.dev/os?utm_source=gopls"},{"range":{"start":{"line":6,"character":2},"end":{"line":6,"character":9}},"target":"https://pkg.go.dev/strconv?utm_source=gopls"},{"range":{"start":{"line":7,"character":2},"end":{"line":7,"character":9}},"target":"https://pkg.go.dev/strings?utm_source=gopls"}]
+
+
+[Trace - 21:52:49.918 PM] Sending notification 'workspace/didChangeWatchedFiles'.
+Params: {"changes":[{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go","type":2}]}
+
+
+[Trace - 21:52:50.377 PM] Sending request 'textDocument/codeLens - (29)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:52:50.383 PM] Received response 'textDocument/codeLens - (29)' in 5ms.
+Result: null
+
+
+[Trace - 21:52:51.783 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:51 3.6149862s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -f {{context.ReleaseTags}}\n"}
+
+
+[Info  - 9:52:51 PM] 2021/03/10 21:52:51 3.6149862s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -f {{context.ReleaseTags}}
+
+[Trace - 21:52:53.725 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:53 5.4870006s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -f \"{{context.GOARCH}} {{context.Compiler}}\" -- unsafe\n"}
+
+
+[Info  - 9:52:53 PM] 2021/03/10 21:52:53 5.4870006s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -f "{{context.GOARCH}} {{context.Compiler}}" -- unsafe
+
+[Trace - 21:52:56.301 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:56 4.5069991s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -f {{context.ReleaseTags}}\n"}
+
+
+[Info  - 9:52:56 PM] 2021/03/10 21:52:56 4.5069991s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -f {{context.ReleaseTags}}
+
+[Trace - 21:52:57.131 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:52:57 5.3299966s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -f \"{{context.GOARCH}} {{context.Compiler}}\" -- unsafe\n"}
+
+
+[Info  - 9:52:57 PM] 2021/03/10 21:52:57 5.3299966s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -f "{{context.GOARCH}} {{context.Compiler}}" -- unsafe
+
+[Trace - 21:53:13.033 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:12 16.6610004s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- ./\n"}
+
+
+[Info  - 9:53:13 PM] 2021/03/10 21:53:12 16.6610004s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- ./
+
+[Trace - 21:53:15.944 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:15 2.9429976s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go env -json GOMOD GOPATH\n"}
+
+
+[Info  - 9:53:15 PM] 2021/03/10 21:53:15 2.9429976s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go env -json GOMOD GOPATH
+
+[Trace - 21:53:16.016 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:16 go/packages.Load\n\tsnapshot=7\n\tdirectory=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\n\tquery=[./]\n\tpackages=1\n"}
+
+
+[Trace - 21:53:16.016 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:16 go/packages.Load\n\tsnapshot=7\n\tpackage=\"_/C_/Users/myname/Documents/Visual_Studio_Code/Projects/Golang/src/hackerrank\"\n\tfiles=[C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\main.go]\n"}
+
+
+[Info  - 9:53:16 PM] 2021/03/10 21:53:16 go/packages.Load
+	snapshot=7
+	directory=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank
+	query=[./]
+	packages=1
+
+[Info  - 9:53:16 PM] 2021/03/10 21:53:16 go/packages.Load
+	snapshot=7
+	package="_/C_/Users/myname/Documents/Visual_Studio_Code/Projects/Golang/src/hackerrank"
+	files=[C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank\main.go]
+
+[Trace - 21:53:20.034 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:20 2.6559974s for GOROOT=C:\\Go GOPATH=C:\\Users\\myname\\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank go env -json GO111MODULE GOFLAGS GOINSECURE GOMOD GOMODCACHE GONOPROXY GONOSUMDB GOPATH GOPROXY GOROOT GOSUMDB\n"}
+
+
+[Info  - 9:53:20 PM] 2021/03/10 21:53:20 2.6559974s for GOROOT=C:\Go GOPATH=C:\Users\myname\go GO111MODULE= GOPROXY=https://proxy.golang.org,direct PWD=C:\Users\myname\Documents\Visual Studio Code\Projects\Golang\src\hackerrank go env -json GO111MODULE GOFLAGS GOINSECURE GOMOD GOMODCACHE GONOPROXY GONOSUMDB GOPATH GOPROXY GOROOT GOSUMDB
+
+[Trace - 21:53:20.036 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:20 background imports cache refresh starting\n"}
+
+
+[Info  - 9:53:20 PM] 2021/03/10 21:53:20 background imports cache refresh starting
+
+[Trace - 21:53:20.049 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:20 gopathwalk: scanning C:\\Users\\myname\\go\\src\n"}
+
+
+[Trace - 21:53:20.050 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:20 open C:\\Users\\myname\\go\\src\\.goimportsignore: The system cannot find the file specified.\n"}
+
+
+[Info  - 9:53:20 PM] 2021/03/10 21:53:20 gopathwalk: scanning C:\Users\myname\go\src
+
+[Info  - 9:53:20 PM] 2021/03/10 21:53:20 open C:\Users\myname\go\src\.goimportsignore: The system cannot find the file specified.
+
+[Trace - 21:53:20.052 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:20 Error statting ignored directory: CreateFile C:\\Users\\myname\\go\\src\\mod: The system cannot find the file specified.\n"}
+
+
+[Info  - 9:53:20 PM] 2021/03/10 21:53:20 Error statting ignored directory: CreateFile C:\Users\myname\go\src\mod: The system cannot find the file specified.
+
+[Trace - 21:53:20.053 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:20 Error statting ignored directory: CreateFile C:\\Users\\myname\\go\\src\\v: The system cannot find the file specified.\n"}
+
+
+[Info  - 9:53:20 PM] 2021/03/10 21:53:20 Error statting ignored directory: CreateFile C:\Users\myname\go\src\v: The system cannot find the file specified.
+
+[Trace - 21:53:28.761 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:28 gopathwalk: scanned C:\\Users\\myname\\go\\src in 8.7210038s\n"}
+
+
+[Trace - 21:53:28.761 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/03/10 21:53:28 background refresh finished after 11.3960022s\n"}
+
+
+[Info  - 9:53:28 PM] 2021/03/10 21:53:28 gopathwalk: scanned C:\Users\myname\go\src in 8.7210038s
+
+[Info  - 9:53:28 PM] 2021/03/10 21:53:28 background refresh finished after 11.3960022s
+
+[Trace - 21:53:31.956 PM] Sending request 'textDocument/codeLens - (30)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/myname/Documents/Visual%20Studio%20Code/Projects/Golang/src/hackerrank/main.go"}}
+
+
+[Trace - 21:53:31.965 PM] Received response 'textDocument/codeLens - (30)' in 9ms.
+Result: null
+
+
