@@ -1,0 +1,70 @@
+{
+        "Dir": "C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank",
+        "ImportPath": "hackerrank",
+        "Name": "main",
+        "Target": "C:\\Users\\myname\\go\\bin\\hackerrank.exe",
+        "Root": "C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank",
+        "Module": {
+                "Path": "hackerrank",
+                "Main": true,
+                "Dir": "C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank",
+                "GoMod": "C:\\Users\\myname\\Documents\\Visual Studio Code\\Projects\\Golang\\src\\hackerrank\\go.mod",
+                "GoVersion": "1.14"
+        },
+        "Match": [
+                "./..."
+        ],
+        "Stale": true,
+        "StaleReason": "build ID mismatch",
+        "GoFiles": [
+                "main.go"
+        ],
+        "CompiledGoFiles": [
+                "main.go"
+        ],
+        "Imports": [
+                "bufio",
+                "fmt",
+                "os",
+                "strconv",
+                "strings"
+        ],
+        "Deps": [
+                "bufio",
+                "bytes",
+                "errors",
+                "fmt",
+                "internal/bytealg",
+                "internal/cpu",
+                "internal/fmtsort",
+                "internal/oserror",
+                "internal/poll",
+                "internal/race",
+                "internal/reflectlite",
+                "internal/syscall/execenv",
+                "internal/syscall/windows",
+                "internal/syscall/windows/registry",
+                "internal/syscall/windows/sysdll",
+                "internal/testlog",
+                "io",
+                "math",
+                "math/bits",
+                "os",
+                "reflect",
+                "runtime",
+                "runtime/internal/atomic",
+                "runtime/internal/math",
+                "runtime/internal/sys",
+                "sort",
+                "strconv",
+                "strings",
+                "sync",
+                "sync/atomic",
+                "syscall",
+                "time",
+                "unicode",
+                "unicode/utf16",
+                "unicode/utf8",
+                "unsafe"
+        ]
+}
