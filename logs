@@ -18,6 +18,10 @@
         "Projects":[{
             "Name":"sdfsdfsfs",
             "Version":"1.0.73426056"
+        },
+	{
+            "Name":"sdfs1231213",
+            "Version":"1.0.73426056"
         }]
 	},
     "PROD": {
