@@ -1,0 +1,9 @@
+panic: interface conversion: *main.middleware is not main.Middleware: missing method newGateway
+
+goroutine 1 [running]:
+main.newGateway({0x8433b8, 0xc000054200})
+        /home/tanulbhasin/golang/plugin/chatplugin/grpc/main.go:51 +0x286
+main.runhttpendpoint()
+        /home/tanulbhasin/golang/plugin/chatplugin/grpc/main.go:22 +0x98
+main.main()
+        /home/tanulbhasin/golang/plugin/chatplugin/grpc/main.go:72 +0x19
