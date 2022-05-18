@@ -1,0 +1,15 @@
+replicaCount: 2
+proxy:
+  loadBalancerIP: <ip address>
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+  http:
+    enabled: false
+ingressController:
+  installCRDs: false
+  image:
+    repository: <personal registry>.azurecr.io/kong-ingress-controller
+    tag: v2.3
+image:
+  repository: weuacrimgovernance.azurecr.io/kong
+  tag: 2.8
