@@ -1,0 +1,288 @@
+apiVersion: v1
+items:
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    annotations:
+      deployment.kubernetes.io/revision: "9"
+    creationTimestamp: "2022-01-19T07:48:47Z"
+    generation: 9
+    labels:
+      app.kubernetes.io/component: app
+      app.kubernetes.io/instance: kong-dev
+      app.kubernetes.io/managed-by: Helm
+      app.kubernetes.io/name: kong
+      app.kubernetes.io/version: "2.8"
+      helm.sh/chart: kong-2.8.2
+    name: kong-dev-kong
+    namespace: ingresskong
+    resourceVersion: "254494900"
+    selfLink: /apis/apps/v1/namespaces/ingress-kong/deployments/kong-dev-kong
+    uid: 7122f1e5-68ee-444a-a9a0-8915d70ef127
+  spec:
+    progressDeadlineSeconds: 600
+    replicas: 2
+    revisionHistoryLimit: 10
+    selector:
+      matchLabels:
+        app.kubernetes.io/component: app
+        app.kubernetes.io/instance: kong-devtest
+        app.kubernetes.io/name: kong
+    strategy:
+      rollingUpdate:
+        maxSurge: 25%
+        maxUnavailable: 25%
+      type: RollingUpdate
+    template:
+      metadata:
+        annotations:
+          kuma.io/gateway: enabled
+          traffic.sidecar.istio.io/includeInboundPorts: ""
+        creationTimestamp: null
+        labels:
+          app: kong-dev-kong
+          app.kubernetes.io/component: app
+          app.kubernetes.io/instance: kong-dev
+          app.kubernetes.io/managed-by: Helm
+          app.kubernetes.io/name: kong
+          app.kubernetes.io/version: "2.8"
+          helm.sh/chart: kong-2.8.2
+          version: "2.8"
+      spec:
+        automountServiceAccountToken: true
+        containers:
+        - env:
+          - name: POD_NAME
+            valueFrom:
+              fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.name
+          - name: POD_NAMESPACE
+            valueFrom:
+              fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+          - name: CONTROLLER_ELECTION_ID
+            value: kong-ingress-controller-leader-kong
+          - name: CONTROLLER_INGRESS_CLASS
+            value: kong
+          - name: CONTROLLER_KONG_ADMIN_TLS_SKIP_VERIFY
+            value: "true"
+          - name: CONTROLLER_KONG_ADMIN_URL
+            value: https://localhost:8444
+          - name: CONTROLLER_PUBLISH_SERVICE
+            value: ingress-kong/kong-devtest-kong-proxy
+          image: <personal registry>.azurecr.io/kong-ingress-controller:v2.3  # we are building the image on every pipleine. First we download the content from Kong github, build the docker image and puhs to our acr
+          imagePullPolicy: Always
+          livenessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /healthz
+              port: 10254
+              scheme: HTTP
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 5
+          name: ingress-controller
+          ports:         
+          - containerPort: 10255
+            name: cmetrics
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /healthz
+              port: 10254
+              scheme: HTTP
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 5
+          resources: {}
+          securityContext: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+        - env:
+          - name: KONG_ADMIN_ACCESS_LOG
+            value: /dev/stdout
+          - name: KONG_ADMIN_ERROR_LOG
+            value: /dev/stderr
+          - name: KONG_ADMIN_GUI_ACCESS_LOG
+            value: /dev/stdout
+          - name: KONG_ADMIN_GUI_ERROR_LOG
+            value: /dev/stderr
+          - name: KONG_ADMIN_LISTEN
+            value: 127.0.0.1:8444 http2 ssl
+          - name: KONG_CLUSTER_LISTEN
+            value: "off"
+          - name: KONG_DATABASE
+            value: "off"
+          - name: KONG_KIC
+            value: "on"
+          - name: KONG_LUA_PACKAGE_PATH
+            value: /opt/?.lua;/opt/?/init.lua;;
+          - name: KONG_NGINX_WORKER_PROCESSES
+            value: "2"
+          - name: KONG_PLUGINS
+            value: bundled
+          - name: KONG_PORTAL_API_ACCESS_LOG
+            value: /dev/stdout
+          - name: KONG_PORTAL_API_ERROR_LOG
+            value: /dev/stderr
+          - name: KONG_PORT_MAPS
+            value: 443:8443
+          - name: KONG_PREFIX
+            value: /kong_prefix/
+          - name: KONG_PROXY_ACCESS_LOG
+            value: /dev/stdout
+          - name: KONG_PROXY_ERROR_LOG
+            value: /dev/stderr
+          - name: KONG_PROXY_LISTEN
+            value: 0.0.0.0:8443 http2 ssl
+          - name: KONG_STATUS_LISTEN
+            value: 0.0.0.0:8100
+          - name: KONG_STREAM_LISTEN
+            value: "off"
+          - name: KONG_NGINX_DAEMON
+            value: "off"
+          image: <personal registry>.azurecr.io/kong:2.8  # same as above
+          imagePullPolicy: Always
+          lifecycle:
+            preStop:
+              exec:
+                command:
+                - kong
+                - quit
+                - --wait=15
+          livenessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /status
+              port: status
+              scheme: HTTP
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 5
+          name: proxy
+          ports:
+          - containerPort: 8443
+            name: proxy-tls
+            protocol: TCP
+          - containerPort: 8100
+            name: status
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /status
+              port: status
+              scheme: HTTP
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 5
+          resources: {}
+          securityContext: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /kong_prefix/
+            name: kong-devtest-kong-prefix-dir
+          - mountPath: /tmp
+            name: kong-devtest-kong-tmp
+        dnsPolicy: ClusterFirst
+        initContainers:
+        - command:
+          - rm
+          - -vrf
+          - $KONG_PREFIX/pids
+          env:
+          - name: KONG_ADMIN_ACCESS_LOG
+            value: /dev/stdout
+          - name: KONG_ADMIN_ERROR_LOG
+            value: /dev/stderr
+          - name: KONG_ADMIN_GUI_ACCESS_LOG
+            value: /dev/stdout
+          - name: KONG_ADMIN_GUI_ERROR_LOG
+            value: /dev/stderr
+          - name: KONG_ADMIN_LISTEN
+            value: 127.0.0.1:8444 http2 ssl
+          - name: KONG_CLUSTER_LISTEN
+            value: "off"
+          - name: KONG_DATABASE
+            value: "off"
+          - name: KONG_KIC
+            value: "on"
+          - name: KONG_LUA_PACKAGE_PATH
+            value: /opt/?.lua;/opt/?/init.lua;;
+          - name: KONG_NGINX_WORKER_PROCESSES
+            value: "2"
+          - name: KONG_PLUGINS
+            value: bundled
+          - name: KONG_PORTAL_API_ACCESS_LOG
+            value: /dev/stdout
+          - name: KONG_PORTAL_API_ERROR_LOG
+            value: /dev/stderr
+          - name: KONG_PORT_MAPS
+            value: 443:8443
+          - name: KONG_PREFIX
+            value: /kong_prefix/
+          - name: KONG_PROXY_ACCESS_LOG
+            value: /dev/stdout
+          - name: KONG_PROXY_ERROR_LOG
+            value: /dev/stderr
+          - name: KONG_PROXY_LISTEN
+            value: 0.0.0.0:8443 http2 ssl
+          - name: KONG_STATUS_LISTEN
+            value: 0.0.0.0:8100
+          - name: KONG_STREAM_LISTEN
+            value: "off"
+          image: <personal registry>.azurecr.io/kong:2.8
+          imagePullPolicy: Always
+          name: clear-stale-pid
+          resources: {}
+          securityContext: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /kong_prefix/
+            name: kong-dev-kong-prefix-dir
+          - mountPath: /tmp
+            name: kong-dev-kong-tmp
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        serviceAccount: kong-dev-kong
+        serviceAccountName: kong-dev-kong
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - emptyDir: {}
+          name: kong-dev-kong-prefix-dir
+        - emptyDir: {}
+          name: kong-dev-kong-tmp
+  status:
+    availableReplicas: 2
+    conditions:
+    - lastTransitionTime: "2022-04-18T04:52:15Z"
+      lastUpdateTime: "2022-04-18T04:52:15Z"
+      message: Deployment has minimum availability.
+      reason: MinimumReplicasAvailable
+      status: "True"
+      type: Available
+    - lastTransitionTime: "2022-05-18T11:25:12Z"
+      lastUpdateTime: "2022-05-18T11:25:12Z"
+      message: ReplicaSet "kong-dev-kong-c9ddb7957" has timed out progressing.
+      reason: ProgressDeadlineExceeded
+      status: "False"
+      type: Progressing
+    observedGeneration: 9
+    readyReplicas: 2
+    replicas: 3
+    unavailableReplicas: 1
+    updatedReplicas: 1
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""
