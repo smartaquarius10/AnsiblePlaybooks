@@ -9,8 +9,7 @@ items:
     creationTimestamp: "2020-06-02T15:24:24Z"
     name: azure-devops-deploy-role
     resourceVersion: "156627311"
-    selfLink: /apis/rbac.authorization.k8s.io/v1/namespaces/prod/roles/azure-devops-deploy-role
-    uid: 82ed7692-47ec-4002-9308-29307e72aa8b
+    selfLink: /apis/rbac.authorization.k8s.io/v1/namespaces/prod/roles/azure-devops-deploy-role    
   rules:
   - apiGroups:
     - ""
