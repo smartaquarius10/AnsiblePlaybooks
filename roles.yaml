@@ -49,3 +49,47 @@ subjects:
 - kind: ServiceAccount
   name: azdev-sa-488484
   namespace: default
+
+```
+
+apiVersion: v1
+items:
+- apiVersion: rbac.authorization.k8s.io/v1
+  kind: ClusterRole
+  metadata:
+    annotations:
+    name: tanul-cluster-role
+    namespace: kong
+  rules:
+  - apiGroups:
+    - apiextensions.k8s.io
+    resources:
+    - customresourcedefinition
+    verbs:
+    - get
+    - list
+    - watch
+    - create
+    - update
+    - patch
+    - delete
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""
+  
+  ```
+  
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: tanul-cluster-bind
+  namespace: kong
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: tanul-cluster-role
+subjects:
+- kind: ServiceAccount
+  name: azdev-sa-488484
+  namespace: default
