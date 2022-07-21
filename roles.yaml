@@ -4,29 +4,22 @@ items:
   kind: Role
   metadata:
     annotations:
-      kubectl.kubernetes.io/last-applied-configuration: |
-        {"apiVersion":"rbac.authorization.k8s.io/v1","kind":"Role","metadata":{"annotations":{},"name":"azure-devops-deploy-role","namespace":"prod"},"rules":[{"apiGroups":["","batch","extensions","apps","policy","networking.k8s.io","configuration.konghq.com"],"resources":["deployments","replicasets","pods","services","ingresses","configmaps","secrets","kongingresses","kongplugins"],"verbs":["get","list","watch","create","update","patch","delete"]}]}
-    creationTimestamp: "2020-06-02T15:24:24Z"
-    name: azure-devops-deploy-role
-    resourceVersion: "156627311"
-    selfLink: /apis/rbac.authorization.k8s.io/v1/namespaces/prod/roles/azure-devops-deploy-role    
+    name: tanul-role
+    namespace: kong
   rules:
   - apiGroups:
     - ""
-    - batch
-    - extensions
+    - apiextensions.k8s.io
     - apps
-    - policy
-    - networking.k8s.io
     - configuration.konghq.com
     resources:
     - deployments
     - replicasets
     - pods
     - services
-    - ingresses
     - configmaps
     - secrets
+    - customresourcedefinition
     - kongingresses
     - kongplugins
     verbs:
@@ -41,3 +34,18 @@ kind: List
 metadata:
   resourceVersion: ""
   selfLink: ""
+  
+  ```
+  apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: tanul-bind
+  namespace: kong
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: tanul-role
+subjects:
+- kind: ServiceAccount
+  name: azdev-sa-488484
+  namespace: default
