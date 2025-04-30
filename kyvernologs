@@ -1,0 +1,125 @@
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/version/version.go:49 > version hash=338a72c59ddd055a3ad8aaae511bafa742608641 logger=setup/version v=2 version=v1.14.0
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > add_dir_header=false logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > allowInsecureRegistry=false logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > alsologtostderr=false logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > cleanupServerPort=9443 logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > clientRateLimitBurst=200 logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > clientRateLimitQPS=100 logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > disableMetrics=false logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > enableConfigMapCaching=true logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > enableDeferredLoading= logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > enablePolicyException=false logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > enableReporting=validate,mutate,mutateExisting,imageVerify,generate logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > enableTracing=false logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > eventsRateLimitBurst=2000 logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > eventsRateLimitQPS=1000 logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > exceptionNamespace= logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > genWorkers=10 logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > imagePullSecrets= logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > kubeconfig= logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > leaderElectionRetryPeriod=2s logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > log_backtrace_at=:0 logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > log_dir= logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > log_file= logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > log_file_max_size=1800 logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag loggingFormat=text v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag loggingtsFormat=default v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag logtostderr=true v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag maxAPICallResponseLength=2000000 v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag maxBackgroundReports=10000 v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag maxQueuedEvents=1000 v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag metricsPort=8000 v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag omitEvents=PolicyApplied,PolicySkipped v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag one_output=false v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag otelCollector=opentelemetrycollector.kyverno.svc.cluster.local v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag otelConfig=prometheus v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag profile=false v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag profileAddress= v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag profilePort=6060 v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag registryCredentialHelpers= v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag resyncPeriod=15m0s v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag skip_headers=false v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag skip_log_headers=false v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag stderrthreshold=2 v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag tracingAddress= v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag tracingCreds= v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag tracingPort=4317 v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag transportCreds= v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/flag.go:284 > logger=setup/flag v=2 vmodule=
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/maxprocs.go:12 > setup maxprocs... logger=setup/maxprocs v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/signal.go:16 > setup signals... logger=setup/signals v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/client.go:43 > create kube client... burst=200 kubeconfig= logger=setup/kube-client qps=100 v=2
+2025-04-30T09:11:25Z DBG k8s.io/client-go@v0.32.3/features/envvar.go:172 > Feature gate default state enabled=false feature=InformerResourceVersion logger=klog v=1
+2025-04-30T09:11:25Z DBG k8s.io/client-go@v0.32.3/features/envvar.go:172 > Feature gate default state enabled=false feature=WatchListClient logger=klog v=1
+2025-04-30T09:11:25Z DBG k8s.io/client-go@v0.32.3/features/envvar.go:172 > Feature gate default state enabled=false feature=ClientsAllowCBOR logger=klog v=1
+2025-04-30T09:11:25Z DBG k8s.io/client-go@v0.32.3/features/envvar.go:172 > Feature gate default state enabled=false feature=ClientsPreferCBOR logger=klog v=1
+2025-04-30T09:11:25Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v1.ConfigMap from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/metrics.go:18 > setup metrics... collector=opentelemetrycollector.kyverno.svc.cluster.local creds= logger=setup/metrics otel=prometheus port=8000 v=2
+2025-04-30T09:11:25Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v1.ConfigMap from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:399 > defaultRegistry configured defaultRegistry=docker.io logger=config name=kyverno namespace=kyverno v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:415 > enableDefaultRegistryMutation configured enableDefaultRegistryMutation=true logger=config name=kyverno namespace=kyverno v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:424 > excludedGroups configured excludeGroups=["system:nodes"] includeGroups=[] logger=config name=kyverno namespace=kyverno v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:429 > excludeUsernames not set logger=config name=kyverno namespace=kyverno v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:437 > excludeRoles not set logger=config name=kyverno namespace=kyverno v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:445 > excludeClusterRoles not set logger=config name=kyverno namespace=kyverno v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:461 > generateSuccessEvents configured generateSuccessEvents=false logger=config name=kyverno namespace=kyverno v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:475 > webhooks configured logger=config name=kyverno namespace=kyverno v=2 webhooks="{\"namespaceSelector\":{\"matchExpressions\":[{\"key\":\"kubernetes.io/metadata.name\",\"operator\":\"NotIn\",\"values\":[\"kube-system\"]},{\"key\":\"kubernetes.io/metadata.name\",\"operator\":\"NotIn\",\"values\":[\"kyverno\"]}],\"matchLabels\":null}}"
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:489 > webhookAnnotations configured logger=config name=kyverno namespace=kyverno v=2 webhookAnnotations="{\"admissions.enforcer/disabled\":\"true\"}"
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:495 > webhookLabels not set logger=config name=kyverno namespace=kyverno v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:509 > matchConditions not set logger=config name=kyverno namespace=kyverno v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/pkg/config/config.go:530 > enableDefaultRegistryMutation configured enableDefaultRegistryMutation=true logger=config name=kyverno namespace=kyverno v=2
+2025-04-30T09:11:25Z TRC github.com/kyverno/kyverno/cmd/internal/registry.go:18 > setup registry client... insecure=false logger=setup/registry-client secrets= v=2
+2025-04-30T09:11:25Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v1.Secret from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/client.go:43 > create kube client... burst=200 kubeconfig= logger=setup/kube-client qps=100 v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/client.go:51 > create kyverno client... burst=200 kubeconfig= logger=setup/kyverno-client qps=100 v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/client.go:59 > create dynamic client... burst=200 kubeconfig= logger=setup/dynamic-client qps=100 v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/client.go:75 > create apiserver client... burst=200 kubeconfig= logger=setup/apiserver-client qps=100 v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/client.go:83 > create the kyverno dynamic client... burst=200 kubeconfig= logger=setup/d-client qps=100 v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/client.go:91 > create the events client... burst=200 kubeconfig= logger=setup/events-client qps=100 v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/client.go:43 > create kube client... burst=200 kubeconfig= logger=setup/events-client/kube-client qps=100 v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/client.go:67 > create metadata client... burst=200 kubeconfig= logger=setup/metadata-client qps=100 v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/reporting.go:13 > setting up reporting... enableReporting=validate,mutate,mutateExisting,imageVerify,generate generate=true imageVerify=true logger=setup/setup-reporting mutate=true mutateExisiting=true v=2 validate=true
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/background-controller/main.go:148 > setting the background scan interval logger=setup v=2 value=1h0m0s
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/engine.go:65 > setup exception selector... enablePolicyException=false exceptionNamespace= logger=setup/exception-selector v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/engine.go:94 > setup config map resolver... enableConfigMapCaching=true logger=setup/configmap-resolver v=2
+2025-04-30T09:11:26Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v1.ConfigMap from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:26Z TRC github.com/kyverno/kyverno/cmd/internal/engine.go:46 > setup engine... logger=setup/engine v=2
+2025-04-30T09:11:26Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v1.Policy from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:26Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v1.ClusterPolicy from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:27Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v2alpha1.GlobalContextEntry from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:27Z INF k8s.io/client-go@v0.32.3/tools/leaderelection/leaderelection.go:257 > attempting to acquire leader lease kyverno/kyverno-background-controller... logger=klog v=0
+2025-04-30T09:11:27Z TRC github.com/kyverno/kyverno/cmd/internal/controller.go:32 > starting controller logger=setup name=global-context v=2 workers=1
+2025-04-30T09:11:27Z TRC github.com/kyverno/kyverno/cmd/internal/controller.go:32 > starting controller logger=setup name=kyverno-events v=2 workers=3
+2025-04-30T09:11:27Z TRC github.com/kyverno/kyverno/pkg/event/controller.go:104 > start logger=EventGenerator v=2
+2025-04-30T09:11:27Z INF k8s.io/client-go@v0.32.3/tools/leaderelection/leaderelection.go:271 > successfully acquired lease kyverno/kyverno-background-controller logger=klog v=0
+2025-04-30T09:11:27Z TRC github.com/kyverno/kyverno/pkg/leaderelection/leaderelection.go:83 > started leading id=kyverno-background-controller-c68786584-d52cf logger=setup/leader-election v=2
+2025-04-30T09:11:27Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v1.Namespace from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:27Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v2.UpdateRequest from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:27Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v1.Policy from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:27Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v1.ClusterPolicy from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:27Z TRC github.com/kyverno/kyverno/cmd/internal/controller.go:32 > starting controller logger=setup/leader/controllers name=policy-controller v=2 workers=2
+2025-04-30T09:11:27Z TRC github.com/kyverno/kyverno/cmd/internal/controller.go:32 > starting controller logger=setup/leader/controllers name=background-controller v=2 workers=10
+2025-04-30T09:11:27Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:257 > starting logger=PolicyController v=2
+2025-04-30T09:11:27Z INF k8s.io/client-go@v0.32.3/tools/cache/shared_informer.go:313 > Waiting for caches to sync for background logger=klog v=0
+2025-04-30T09:11:27Z INF k8s.io/client-go@v0.32.3/tools/cache/shared_informer.go:320 > Caches are synced for background logger=klog v=0
+2025-04-30T09:11:27Z INF k8s.io/client-go@v0.32.3/tools/cache/shared_informer.go:313 > Waiting for caches to sync for PolicyController logger=klog v=0
+2025-04-30T09:11:27Z INF k8s.io/client-go@v0.32.3/tools/cache/shared_informer.go:320 > Caches are synced for PolicyController logger=klog v=0
+2025-04-30T09:11:28Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v1.Policy from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:11:29Z TRC k8s.io/client-go@v0.32.3/tools/cache/reflector.go:376 > Caches populated for *v2alpha1.GlobalContextEntry from k8s.io/client-go@v0.32.3/tools/cache/reflector.go:251 logger=klog v=2
+2025-04-30T09:13:34Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:184 > policy created kind=ClusterPolicy logger=PolicyController name=add-donot-evict-to-running-job-pods namespace= uid=dadbfc12-e570-461f-8813-a6c37f9f60ee v=2
+2025-04-30T09:13:41Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:233 > policy deleted kind=ClusterPolicy logger=PolicyController name=add-donot-evict-to-running-job-pods namespace= uid=dadbfc12-e570-461f-8813-a6c37f9f60ee v=2
+2025-04-30T09:20:57Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:184 > policy created kind=ClusterPolicy logger=PolicyController name=add-karpenter-do-not-evict namespace= uid=d888459d-cfd6-47ae-8214-79e6d482bd52 v=2
+2025-04-30T09:23:08Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:206 > updating policy logger=PolicyController name=add-karpenter-do-not-evict v=2
+2025-04-30T09:23:08Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:430 > creating new UR for generate logger=PolicyController v=2
+2025-04-30T09:23:08Z TRC github.com/kyverno/kyverno/pkg/policy/mutate.go:56 > successfully created UR on policy update logger=PolicyController policy=add-karpenter-do-not-evict rule=add-do-not-evict-to-existing-deployment-pods rule type=mutate target=v1/Pod/default/job-instant-run-mgs9x v=2
+2025-04-30T10:11:27Z TRC github.com/kyverno/kyverno/pkg/policy/mutate.go:56 > successfully created UR on policy update logger=PolicyController policy=add-karpenter-do-not-evict rule=add-do-not-evict-to-existing-deployment-pods rule type=mutate target=v1/Pod/default/job-instant-run-86w27 v=2
+2025-04-30T10:39:46Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:206 > updating policy logger=PolicyController name=add-karpenter-do-not-evict v=2
+2025-04-30T10:39:46Z TRC github.com/kyverno/kyverno/pkg/policy/mutate.go:56 > successfully created UR on policy update logger=PolicyController policy=add-karpenter-do-not-evict rule=add-do-not-evict-to-existing-deployment-pods rule type=mutate target=v1/Pod/default/job-instant-run-86w27 v=2
+2025-04-30T11:01:47Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:206 > updating policy logger=PolicyController name=add-karpenter-do-not-evict v=2
+2025-04-30T11:04:51Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:233 > policy deleted kind=ClusterPolicy logger=PolicyController name=add-karpenter-do-not-evict namespace= uid=d888459d-cfd6-47ae-8214-79e6d482bd52 v=2
+2025-04-30T11:44:10Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:184 > policy created kind=ClusterPolicy logger=PolicyController name=add-karpenter-donot-evict namespace= uid=8f660c55-c32d-4405-8be9-d73b8c1b3b9a v=2
+2025-04-30T12:22:48Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:233 > policy deleted kind=ClusterPolicy logger=PolicyController name=add-karpenter-donot-evict namespace= uid=8f660c55-c32d-4405-8be9-d73b8c1b3b9a v=2
+2025-04-30T12:28:26Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:184 > policy created kind=ClusterPolicy logger=PolicyController name=add-karpenter-do-not-evict namespace= uid=2bc6813e-f969-4413-8cde-7084bb9de6ae v=2
+2025-04-30T12:49:15Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:233 > policy deleted kind=ClusterPolicy logger=PolicyController name=add-karpenter-do-not-evict namespace= uid=2bc6813e-f969-4413-8cde-7084bb9de6ae v=2
+2025-04-30T12:50:39Z TRC github.com/kyverno/kyverno/pkg/policy/policy_controller.go:184 > policy created kind=ClusterPolicy logger=PolicyController name=add-karpenter-do-not-evict namespace= uid=da63aed1-16af-4700-9010-dcd9570f2418 v=2
